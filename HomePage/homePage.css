@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins, Rubik, sans-serif;
+}
+
+p,
+h1 {
+  margin: 0;
+}
+
+.content-container-70vw {
+  width: 70vw;
+  margin: auto;
+}
+
+.blue-button {
+  background-color: #0f11b1;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 150px;
+}
+
+.blue-button-arrow {
+  background-color: #00008e;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 40px;
+}
+
+.transparent-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
+
+.white-box-container {
+  width: 100%;
+  padding: 40px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.dark-blue-color {
+  color: #19456b;
+}
+
+.one-third-col {
+  width: 30%;
+}
+
+header {
+  padding-top: 25px;
+  width: 100vw;
+  min-height: 60vh;
+  padding-bottom: 100px;
+  background: linear-gradient(160deg, #2b2b9c, #2b8691);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+header .logo-and-buttons {
+  color: white;
+  margin: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo-and-buttons .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo-and-buttons .logo h1 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-left: 6px;
+}
+
+header .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.699);
+  padding-bottom: 20px;
+}
+
+header .navbar .nav-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+  font-size: 22px;
+}
+
+header .navbar .nav-links .currentPage {
+  border-bottom: 6px solid #ffcc29;
+  padding-bottom: 18px;
+}
+
+header .navbar .telephone {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+header .heading-info {
+  margin-top: 200px;
+  width: 65%;
+}
+
+header .heading-info .heading {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+header .heading-info .info-text {
+  font-size: 18px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 240px;
+  z-index: -10;
+}
+
+.background-text {
+  position: absolute;
+  font-size: 300px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.15);
+  bottom: 0px;
+  left: 60vw;
+}
+
+#white-box-services {
+  margin-top: -70px;
+  z-index: 10;
+}
+
+.blue-column {
+  background-color: #003288;
+  height: 135%;
+  width: 33%;
+  margin-top: -80px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  color: white;
+}
+
+.blue-column p {
+  margin: 8px;
+}
+
+.blue-column .blue-col-heading {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.blue-column .all-services-link {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+#rolso-services-heading {
+  margin-top: 120px;
+}
+
+.one-forth-photo {
+  width: 25%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.one-forth-photo:hover {
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+  z-index: 10;
+}
+/*# sourceMappingURL=homePage.css.map */
