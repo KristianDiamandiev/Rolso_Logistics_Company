@@ -108,3 +108,37 @@ header {
     }
   }
 }
+
+.container-25vw {
+  width: 25vw;
+  height: 60vh;
+
+  img {
+    height: 100%;
+  }
+}
+
+.container-40vw {
+  width: 40vw;
+  margin: 0 5vw;
+  height: 60vh;
+  position: relative;
+
+  img {
+    height: 100%;
+    z-index: 0;
+  }
+
+  .blue-column {
+    position: relative;
+    z-index: 10;
+    height: 300px;
+    width: 50%;
+    margin-left: -50px;
+    bottom: 120px;
+  }
+}
+
+#plans-section {
+  margin-top: 200px;
+}

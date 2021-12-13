@@ -75,7 +75,7 @@ section {
   width: 50vw;
 }
 
-.img-50vw {
+.img-fit {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -322,5 +322,39 @@ header {
   height: 130px;
   border: 1px solid silver;
   padding: 6px 10px;
+}
+
+.container-25vw {
+  width: 25vw;
+  height: 60vh;
+}
+
+.container-25vw img {
+  height: 100%;
+}
+
+.container-40vw {
+  width: 40vw;
+  margin: 0 5vw;
+  height: 60vh;
+  position: relative;
+}
+
+.container-40vw img {
+  height: 100%;
+  z-index: 0;
+}
+
+.container-40vw .blue-column {
+  position: relative;
+  z-index: 10;
+  height: 300px;
+  width: 50%;
+  margin-left: -50px;
+  bottom: 120px;
+}
+
+#plans-section {
+  margin-top: 200px;
 }
 /*# sourceMappingURL=homePage.css.map */
