@@ -11,6 +11,10 @@ h1 {
   margin: 0;
 }
 
+section {
+  width: 100vw;
+}
+
 .content-container-70vw {
   width: 70vw;
   margin: auto;
@@ -55,8 +59,62 @@ h1 {
   color: #19456b;
 }
 
+.very-dark-blue-color {
+  color: #00008e;
+}
+
+.light-blue-color {
+  color: #2e8995;
+}
+
 .one-third-col {
   width: 30%;
+}
+
+.width-50vw-container {
+  width: 50vw;
+}
+
+.img-50vw {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-vertical-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.font-size-40px {
+  font-size: 40px;
+}
+
+.second-50vw-container {
+  margin-top: -80px;
+}
+
+.second-50vw-container .width-50vw-container:first-of-type {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 12%;
+}
+
+.white-box-with-icon {
+  width: 350px;
+}
+
+.white-box-with-icon .white-box-with-icon-text {
+  margin-top: -6px;
 }
 
 header {
@@ -196,6 +254,7 @@ header {
 
 #rolso-services-heading {
   margin-top: 120px;
+  font-size: 56px;
 }
 
 .one-forth-photo {
@@ -210,5 +269,58 @@ header {
   -webkit-transform: scale(1.12);
           transform: scale(1.12);
   z-index: 10;
+}
+
+#consultation-form-section {
+  margin-top: 120px;
+}
+
+.consultation-text-container {
+  width: 40%;
+  margin-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.consultation-form-container {
+  width: 55%;
+}
+
+.consultation-form-container form {
+  width: 100%;
+}
+
+.consultation-form-container form .label-and-input {
+  width: 48%;
+}
+
+.consultation-form-container form .label-and-input label {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.consultation-form-container form .label-and-input input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid silver;
+}
+
+.consultation-form-container form .label-and-input textarea {
+  resize: none;
+  width: 208%;
+  height: 130px;
+  border: 1px solid silver;
+  padding: 6px 10px;
 }
 /*# sourceMappingURL=homePage.css.map */

@@ -52,6 +52,7 @@ header {
 
 #rolso-services-heading {
   margin-top: 120px;
+  font-size: 56px;
 }
 
 .one-forth-photo {
@@ -62,5 +63,48 @@ header {
   &:hover {
     transform: scale(1.12);
     z-index: 10;
+  }
+}
+
+#consultation-form-section {
+  margin-top: 120px;
+}
+
+.consultation-text-container {
+  width: 40%;
+  margin-right: 5%;
+
+  @include flexJustifyAlign(center, flex-start);
+  flex-direction: column;
+}
+
+.consultation-form-container {
+  width: 55%;
+
+  form {
+    width: 100%;
+
+    .label-and-input {
+      width: 48%;
+
+      label {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.692);
+      }
+
+      input {
+        width: 100%;
+        padding: 6px 10px;
+        border: 1px solid rgb(192, 192, 192);
+      }
+
+      textarea {
+        resize: none;
+        width: 208%;
+        height: 130px;
+        border: 1px solid rgb(192, 192, 192);
+        padding: 6px 10px;
+      }
+    }
   }
 }

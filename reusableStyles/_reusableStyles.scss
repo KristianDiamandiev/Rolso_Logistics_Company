@@ -10,6 +10,10 @@ h1 {
   margin: 0;
 }
 
+section {
+  width: 100vw;
+}
+
 .content-container-70vw {
   width: 70vw;
   margin: auto;
@@ -51,6 +55,50 @@ h1 {
   color: $darkBlue;
 }
 
+.very-dark-blue-color {
+  color: $veryDarkBlue;
+}
+
+.light-blue-color {
+  color: $lightBlue;
+}
+
 .one-third-col {
   width: 30%;
+}
+
+.width-50vw-container {
+  width: 50vw;
+}
+
+.img-50vw {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.font-size-40px {
+  font-size: 40px;
+}
+
+.second-50vw-container {
+  margin-top: -80px;
+
+  .width-50vw-container:first-of-type {
+    align-items: flex-end;
+    padding-left: 12%;
+  }
+}
+
+.white-box-with-icon {
+  width: 350px;
+
+  .white-box-with-icon-text {
+    margin-top: -6px;
+  }
 }
