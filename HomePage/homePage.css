@@ -392,8 +392,15 @@ header {
 
 #plans-section .white-box-container .best-offer-box {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   top: -40px;
-  left: 28%;
+  left: 20%;
+  right: 20%;
   padding: 8px 40px;
   background-color: #ffcc29;
   color: #19456b;
