@@ -71,6 +71,10 @@ section {
   width: 30%;
 }
 
+.width-100-percent {
+  width: 100%;
+}
+
 .width-50vw-container {
   width: 50vw;
 }
@@ -356,5 +360,43 @@ header {
 
 #plans-section {
   margin-top: 200px;
+}
+
+#plans-section .plans-text {
+  margin: 0 20%;
+}
+
+#plans-section .plans-boxes {
+  margin-top: 110px;
+}
+
+#plans-section .plan-heading {
+  font-size: 20px;
+}
+
+#plans-section .plan-discount {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 16px;
+}
+
+#plans-section .plan-price span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#plans-section .white-box-container {
+  position: relative;
+}
+
+#plans-section .white-box-container .best-offer-box {
+  position: absolute;
+  top: -40px;
+  left: 28%;
+  padding: 8px 40px;
+  background-color: #ffcc29;
+  color: #19456b;
+  font-weight: 600;
 }
 /*# sourceMappingURL=homePage.css.map */
