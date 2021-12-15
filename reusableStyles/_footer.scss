@@ -1,0 +1,53 @@
+footer {
+  margin-top: 60px;
+  padding-top: 25px;
+  width: 100vw;
+  min-height: 80vh;
+  padding-bottom: 100px;
+  background: linear-gradient(160deg, rgb(11, 11, 167), rgb(43, 134, 145));
+
+  .row {
+    margin-top: 80px;
+  }
+
+  .logo {
+    @include flexJustifyAlign(flex-start, center);
+    h1 {
+      font-weight: 600;
+      font-size: 32px;
+      margin-left: 6px;
+      color: white;
+    }
+  }
+
+  .bigger-font-size {
+    font-size: 18px;
+  }
+
+  .white-circle-icon-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+
+    .bi-linkedin {
+      background-color: $veryDarkBlue;
+    }
+  }
+
+  .link-container {
+    margin-left: 80px;
+  }
+
+  .white-border-input {
+    width: 60%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .send-icon-container {
+    background-color: $veryDarkBlue;
+    padding: 0 10px;
+    margin-left: -1px;
+  }
+}

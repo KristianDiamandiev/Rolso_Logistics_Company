@@ -207,6 +207,69 @@ header .heading-info .info-text {
   font-size: 18px;
 }
 
+footer {
+  margin-top: 60px;
+  padding-top: 25px;
+  width: 100vw;
+  min-height: 80vh;
+  padding-bottom: 100px;
+  background: linear-gradient(160deg, #0b0ba7, #2b8691);
+}
+
+footer .row {
+  margin-top: 80px;
+}
+
+footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logo h1 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-left: 6px;
+  color: white;
+}
+
+footer .bigger-font-size {
+  font-size: 18px;
+}
+
+footer .white-circle-icon-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+footer .white-circle-icon-container .bi-linkedin {
+  background-color: #00008e;
+}
+
+footer .link-container {
+  margin-left: 80px;
+}
+
+footer .white-border-input {
+  width: 60%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+footer .send-icon-container {
+  background-color: #00008e;
+  padding: 0 10px;
+  margin-left: -1px;
+}
+
 body {
   overflow-x: hidden;
 }
