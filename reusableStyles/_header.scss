@@ -20,6 +20,10 @@ header {
     }
   }
 
+  .burger-menu {
+    display: none;
+  }
+
   .navbar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.699);
     padding-bottom: 20px;
@@ -53,6 +57,75 @@ header {
 
     .info-text {
       font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    .logo-and-buttons {
+      margin: 0 10px;
+      display: flex;
+      flex-direction: column;
+      .logo {
+        align-self: flex-start;
+        height: 100px;
+        @include flexJustifyAlign(flex-start, center);
+        img {
+          width: 70px;
+        }
+        h1 {
+          font-weight: 600;
+          font-size: 48px;
+          margin-left: 6px;
+        }
+      }
+      .header-buttons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        button {
+          width: 280px;
+          height: 60px;
+          margin: 14px 0;
+        }
+      }
+    }
+
+    .navbar {
+      //display: none;
+      .nav-links {
+        a {
+          margin: 0 20px;
+          font-size: 28px;
+          display: block;
+          margin: 14px 0;
+        }
+        .currentPage {
+          border-bottom: none;
+          padding-bottom: 0px;
+        }
+      }
+      .telephone {
+        font-size: 28px;
+        font-weight: 600;
+        margin-left: 12px;
+        margin-top: 20px;
+      }
+    }
+
+    .burger-menu {
+      display: block;
+    }
+
+    .heading-info {
+      margin-top: 100px;
+
+      .heading {
+        font-size: 40px;
+        line-height: 56px;
+      }
     }
   }
 }

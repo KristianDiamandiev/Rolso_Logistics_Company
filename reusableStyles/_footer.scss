@@ -56,12 +56,12 @@ footer {
   }
 
   .three-cols-footer {
-    .col {
+    .transparent-background {
       background-color: rgba(46, 137, 149, 0.2);
       padding: 40px 45px;
     }
 
-    .col:nth-of-type(2) {
+    .transparent-background:nth-of-type(2) {
       background-color: rgba(255, 255, 255, 0.16);
     }
 
@@ -72,5 +72,28 @@ footer {
 
   .copyright-text {
     margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding-top: 20px;
+
+    .link-container {
+      margin-left: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      .bigger-font-size {
+        font-size: 22px;
+      }
+    }
+
+    .copyright-text {
+      margin-top: 80px;
+    }
   }
 }

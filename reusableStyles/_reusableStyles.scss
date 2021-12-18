@@ -44,7 +44,6 @@ section {
 }
 
 .white-box-container {
-  width: 100%;
   padding: 40px 40px;
   display: flex;
   background-color: white;
@@ -104,5 +103,57 @@ section {
 
   .white-box-with-icon-text {
     margin-top: -6px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .content-container-70vw {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .second-50vw-container {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .font-size-40px {
+    font-size: 32px;
+  }
+
+  .container-of-2-50vw-containers {
+    flex-direction: column;
+
+    .width-50vw-container {
+      width: 100vw;
+    }
+  }
+  .second-50vw-container {
+    margin-top: 70px;
+    position: relative;
+
+    .white-boxes-with-icons-container {
+      flex-direction: column;
+      bottom: -120px;
+
+      .white-box-with-icon {
+        width: 250px;
+        height: 80px;
+
+        img {
+          height: 80px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        .font-size-40px {
+          font-size: 32px;
+        }
+      }
+    }
   }
 }
