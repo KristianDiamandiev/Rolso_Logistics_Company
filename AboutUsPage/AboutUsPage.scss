@@ -101,3 +101,24 @@ header {
     }
   }
 }
+
+#circles-features-section {
+  margin-top: 120px;
+  .width-30-percent {
+    width: 40%;
+    height: 60vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: none;
+    }
+  }
+  .bigger-font {
+    font-size: 18px;
+  }
+}
+
+#location-section {
+  margin-top: 120px;
+}

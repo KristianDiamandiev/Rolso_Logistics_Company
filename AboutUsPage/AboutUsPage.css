@@ -541,4 +541,28 @@ header .content-container-70vw {
 #two-50vw-containers-section .white-boxes-with-icons-container .phones-text {
   margin-top: 0px !important;
 }
+
+#circles-features-section {
+  margin-top: 120px;
+}
+
+#circles-features-section .width-30-percent {
+  width: 40%;
+  height: 60vh;
+}
+
+#circles-features-section .width-30-percent img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+#circles-features-section .bigger-font {
+  font-size: 18px;
+}
+
+#location-section {
+  margin-top: 120px;
+}
 /*# sourceMappingURL=AboutUsPage.css.map */
