@@ -528,4 +528,17 @@ header .content-container-70vw {
      object-fit: cover;
   height: 100%;
 }
+
+#two-50vw-containers-section .white-boxes-with-icons-container {
+  margin-left: -120px;
+}
+
+#two-50vw-containers-section .white-boxes-with-icons-container .white-box-with-icon-text {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#two-50vw-containers-section .white-boxes-with-icons-container .phones-text {
+  margin-top: 0px !important;
+}
 /*# sourceMappingURL=AboutUsPage.css.map */
