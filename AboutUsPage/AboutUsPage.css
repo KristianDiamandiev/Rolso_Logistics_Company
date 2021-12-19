@@ -455,257 +455,77 @@ header {
   z-index: 1;
 }
 
+header .content-container-70vw {
+  margin-top: 0px;
+}
+
 #white-box-section {
   position: relative;
   z-index: 2;
 }
 
-.background-text {
-  position: absolute;
-  font-size: 300px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.15);
-  bottom: 0px;
-  left: 60vw;
-}
-
-#white-box-services {
-  margin-top: -70px;
-  z-index: 10;
-}
-
-.blue-column {
-  background-color: #003288;
+#white-box-section .white-box-container {
+  width: 66%;
+  margin: auto;
   margin-top: -80px;
-  padding-bottom: 40px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-  color: white;
+  padding: 50px 0px;
 }
 
-.blue-column p {
-  margin: 8px;
+#white-box-section .white-box-container h1 {
+  font-size: 64px;
 }
 
-.blue-column .blue-col-heading {
-  font-size: 22px;
-  font-weight: 600;
+#three-columns-unarranged h1 {
+  margin-top: 90px;
 }
 
-.blue-column .all-services-link {
-  margin-top: 40px;
-  font-size: 14px;
+#three-columns-unarranged .heading-text {
+  margin: 20px 20%;
 }
 
-#rolso-services-heading {
-  margin-top: 120px;
-  font-size: 56px;
+#three-columns-unarranged .circle-icon-container {
+  position: relative;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
-.one-forth-photo {
-  width: 25%;
+#three-columns-unarranged .circle-icon-container .small-number {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #00008e;
+  width: 44px;
+  height: 44px;
+  z-index: 10;
+  font-size: 18px;
+}
+
+#three-columns-unarranged .circle-icon-container .second-small-number {
+  background-color: #2e8995;
+}
+
+#three-columns-unarranged .heading-under-col {
+  font-size: 24px;
+}
+
+#features-of-transporterium {
+  margin-top: 100px;
+}
+
+#features-of-transporterium .width-60-percent {
+  width: 60%;
+  margin-right: 100px;
+}
+
+#features-of-transporterium .img-container {
+  height: 60vh;
+}
+
+#features-of-transporterium .img-container img {
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.one-forth-photo:hover {
-  -webkit-transform: scale(1.12);
-          transform: scale(1.12);
-  z-index: 10;
-}
-
-#consultation-form-section {
-  margin-top: 120px;
-}
-
-.consultation-text-container {
-  width: 40%;
-  margin-right: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.consultation-form-container {
-  width: 55%;
-}
-
-.consultation-form-container form {
-  width: 100%;
-}
-
-.consultation-form-container form .label-and-input {
-  width: 48%;
-}
-
-.consultation-form-container form .label-and-input label {
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.692);
-}
-
-.consultation-form-container form .label-and-input input {
-  width: 100%;
-  padding: 6px 10px;
-  border: 1px solid silver;
-}
-
-.consultation-form-container form .label-and-input textarea {
-  resize: none;
-  width: 208%;
-  height: 130px;
-  border: 1px solid silver;
-  padding: 6px 10px;
-}
-
-.container-25vw {
-  width: 25vw;
-  height: 60vh;
-}
-
-.container-25vw img {
   height: 100%;
 }
-
-.container-40vw {
-  width: 40vw;
-  margin: 0 5vw;
-  height: 60vh;
-  position: relative;
-}
-
-.container-40vw img {
-  height: 100%;
-  z-index: 0;
-}
-
-.container-40vw .blue-column {
-  position: relative;
-  z-index: 10;
-  width: 50%;
-  margin-left: -50px;
-  bottom: 120px;
-}
-
-#plans-section {
-  margin-top: 200px;
-}
-
-#plans-section .plans-text {
-  margin: 0 20%;
-}
-
-#plans-section .plans-boxes {
-  margin-top: 110px;
-}
-
-#plans-section .plan-heading {
-  font-size: 20px;
-}
-
-#plans-section .plan-discount {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  font-size: 16px;
-}
-
-#plans-section .plan-price span {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-#plans-section .white-box-container {
-  position: relative;
-}
-
-#plans-section .white-box-container .best-offer-box {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  top: -40px;
-  left: 20%;
-  right: 20%;
-  padding: 8px 40px;
-  background-color: #ffcc29;
-  color: #19456b;
-  font-weight: 600;
-}
-
-@media screen and (max-width: 1200px) {
-  #white-box-services .blue-column {
-    margin-top: 50px;
-  }
-  .container-40vw .blue-column {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .four-photos {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .one-forth-photo {
-    width: 100%;
-    height: 210px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  #consultation-form-section {
-    margin-top: 200px;
-  }
-  #consultation-form-section .consultation-form-section-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #consultation-form-section .consultation-form-section-container .consultation-text-container {
-    width: 96%;
-  }
-  #consultation-form-section .consultation-form-section-container .consultation-form-container {
-    width: 96%;
-  }
-  #consultation-form-section .consultation-form-section-container .consultation-form-container .two-inputs-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #consultation-form-section .consultation-form-section-container .consultation-form-container .two-inputs-container .label-and-input {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  #three-images-25-40-25vw .container-25vw {
-    display: none;
-  }
-  #three-images-25-40-25vw .container-40vw {
-    width: 100vw;
-  }
-  #three-images-25-40-25vw .container-40vw .blue-column {
-    margin-left: 3%;
-    width: 94%;
-  }
-  #plans-section .plans-text {
-    margin: 0;
-  }
-}
-/*# sourceMappingURL=homePage.css.map */
+/*# sourceMappingURL=AboutUsPage.css.map */

@@ -1,0 +1,89 @@
+@import "../reusableStyles/variablesAndMixins";
+@import "../reusableStyles/reusableStyles";
+@import "../reusableStyles/header";
+@import "../reusableStyles/footer";
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 240px;
+  z-index: 1;
+
+  .content-container-70vw {
+    margin-top: 0px;
+  }
+}
+
+#white-box-section {
+  position: relative;
+  z-index: 2;
+
+  .white-box-container {
+    width: 66%;
+    margin: auto;
+    margin-top: -80px;
+    padding: 50px 0px;
+
+    h1 {
+      font-size: 64px;
+    }
+  }
+}
+
+#three-columns-unarranged {
+  h1 {
+    margin-top: 90px;
+  }
+
+  .heading-text {
+    margin: 20px 20%;
+  }
+
+  .circle-icon-container {
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    .small-number {
+      position: absolute;
+      right: 15px;
+      top: 5px;
+      border-radius: 50%;
+      background-color: $veryDarkBlue;
+      width: 44px;
+      height: 44px;
+      z-index: 10;
+      font-size: 18px;
+    }
+
+    .second-small-number {
+      background-color: $lightBlue;
+    }
+  }
+  .heading-under-col {
+    font-size: 24px;
+  }
+}
+
+#features-of-transporterium {
+  margin-top: 100px;
+
+  .width-60-percent {
+    width: 60%;
+    margin-right: 100px;
+  }
+
+  .img-container {
+    height: 60vh;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+}
