@@ -16,6 +16,15 @@ header {
   .content-container-70vw {
     margin-top: 0px;
   }
+
+  .yellow-line {
+    position: absolute;
+    background-color: #ffcc29;
+    width: 100px;
+    height: 6px;
+    bottom: -3px;
+    left: 140px;
+  }
 }
 
 #white-box-section {

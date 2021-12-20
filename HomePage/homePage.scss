@@ -12,6 +12,15 @@ header {
   overflow-x: hidden;
   padding-bottom: 240px;
   z-index: 1;
+
+  .yellow-line {
+    position: absolute;
+    background-color: #ffcc29;
+    width: 80px;
+    height: 6px;
+    bottom: -3px;
+    left: 36px;
+  }
 }
 
 #white-box-section {

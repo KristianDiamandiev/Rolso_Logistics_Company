@@ -15,6 +15,7 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="../reusableScripts/header.js"></script>
     <script src="./AboutUsPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,6 +45,7 @@
             width="80"
             height="80"
             fill="currentColor"
+            id="burger-menu-icon"
             class="bi bi-list text-white ms-2 mt-5"
             viewBox="0 0 16 16"
           >
@@ -54,10 +56,93 @@
           </svg>
         </div>
         <div class="navbar mt-4">
-          <div class="nav-links ms-4">
-            <a class="currentPage" href="../HomePage/HomePage.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
+          <div class="yellow-line"></div>
+          <div class="nav-links ms-4 d-flex">
+            <a href="../HomePage/HomePage.html">Home</a>
+            <div class="custom-nav-link">
+              About
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+              <div class="position-absolute dropdown-link-container">
+                <div>
+                  <a href="../AboutUsPage/AboutUsPage.html">About Us</a>
+                </div>
+                <div>
+                  <a href="#">Quote</a>
+                </div>
+                <div>
+                  <a href="#">Warehouse</a>
+                </div>
+                <div>
+                  <a href="#">FAQ</a>
+                </div>
+                <div>
+                  <a href="#">404</a>
+                </div>
+              </div>
+            </div>
+            <div class="custom-nav-link">
+              Services
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+              <div class="position-absolute dropdown-link-container">
+                <div>
+                  <a href="#">All Services</a>
+                </div>
+                <div>
+                  <a href="#">Single Service</a>
+                </div>
+                <div>
+                  <a href="#">Projects</a>
+                </div>
+                <div>
+                  <a href="#">Calculator</a>
+                </div>
+              </div>
+            </div>
+            <div class="custom-nav-link">
+              Blog
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+              <div class="position-absolute dropdown-link-container">
+                <div>
+                  <a href="#">All Posts</a>
+                </div>
+                <div>
+                  <a href="#">Post Details</a>
+                </div>
+              </div>
+            </div>
             <a href="#">Prices</a>
             <a href="#">Contacts</a>
           </div>
