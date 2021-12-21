@@ -16,20 +16,19 @@
       crossorigin="anonymous"
     ></script>
     <script src="../reusableScripts/header.js"></script>
-    <script src="./homePageScript.js"></script>
+    <script src="./SingleServicePage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./homePage.css" />
-    <title>Home Page</title>
+    <link rel="stylesheet" href="./SingleServicePage.css" />
+    <title>Single Service Page</title>
   </head>
   <body>
     <header>
       <div class="content-container-70vw">
-        <p class="background-text">Unbeliavable</p>
         <div class="logo-and-buttons">
           <div class="logo">
             <img src="../images/Logo.png" width="50px" alt="" />
@@ -59,7 +58,7 @@
         <div class="navbar mt-4">
           <div class="yellow-line"></div>
           <div class="nav-links ms-4 d-flex">
-            <a href="#">Home</a>
+            <a href="../HomePage/HomePage.html">Home</a>
             <div class="custom-nav-link">
               About
               <svg
@@ -108,12 +107,10 @@
               </svg>
               <div class="position-absolute dropdown-link-container">
                 <div>
-                  <a href="../ServicesPage/ServicesPage.html">All Services</a>
+                  <a href="#">All Services</a>
                 </div>
                 <div>
-                  <a href="../SingleServicePage/SingleServicePage.html"
-                    >Single Service</a
-                  >
+                  <a href="#">Single Service</a>
                 </div>
                 <div>
                   <a href="#">Projects</a>
@@ -151,427 +148,251 @@
           </div>
           <div class="telephone me-4 text-white">+8 (495) 989 20 11</div>
         </div>
-        <div class="heading-info ms-lg-5">
-          <div class="heading text-white">
-            Transportation services around the World
-          </div>
-          <div class="info-text text-white mt-5">
-            Curabitur congue finibus lorem, at dignissim metus elementum sit
-            amet. Mauris eget dapibus quam. Integer a ante rutrum, semper risus
-            a, blandit elit. Nunc dolor purus, condimentum ut lorem in,
-            tincidunt consequat erat.
-          </div>
-          <button class="blue-button mt-5 mt-lg-4">
-            Consultation
-            <button class="blue-button-arrow">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                fill="currentColor"
-                class="bi bi-caret-right-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
-                />
-              </svg>
-            </button>
-          </button>
-        </div>
       </div>
     </header>
 
     <section id="white-box-section">
       <div class="content-container-70vw mb-5">
-        <div id="white-box-services" class="white-box-container">
-          <div class="row">
-            <div class="col-md-6 col-xl-4 d-flex flex-column">
-              <div class="ms-4 me-4">
-                <div class="d-flex mb-5 mb-md-0">
-                  <img
-                    src="../images/world_icon.png"
-                    width="48px"
-                    height="48px"
-                    alt="world"
-                  />
-                  <div class="ms-2">
-                    <p class="dark-blue-color fw-bold">Worldwide</p>
-                    <p>Aliquam erat volutpat. Ut ut erat dignissim, eleifend</p>
-                  </div>
-                </div>
-                <div class="d-flex mt-4 mb-5 mb-md-0">
-                  <img
-                    src="../images/24hrIcon.png"
-                    width="48px"
-                    height="48px"
-                    alt="world"
-                  />
-                  <div>
-                    <p class="dark-blue-color fw-bold">Support 24/7</p>
-                    <p>
-                      Maecenas dapibus mauris ornare, facilisis magna ut,
-                      pellentesque
-                    </p>
-                  </div>
-                </div>
-                <div class="d-flex mt-4 mb-5 mb-md-0">
-                  <img
-                    src="../images/truckIcon.png"
-                    width="48px"
-                    height="48px"
-                    alt="world"
-                  />
-                  <div>
-                    <p class="dark-blue-color fw-bold">Always on time</p>
-                    <p>Aliquam erat volutpat. Ut ut erat dignissim, eleifend</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4 d-flex flex-column">
-              <div class="ms-4 ms-lg-0 me-4">
-                <div class="d-flex mb-5 mb-md-0">
-                  <img
-                    src="../images/packageIcon2.png"
-                    width="48px"
-                    height="48px"
-                    alt="world"
-                  />
-                  <div class="ms-2">
-                    <p class="dark-blue-color fw-bold">Online Tracking</p>
-                    <p>
-                      Nam imperdiet erat in elit malesuada, et consequat nisl
-                    </p>
-                  </div>
-                </div>
-                <div class="d-flex mt-4 mb-5 mb-md-0">
-                  <img
-                    src="../images/trackingIcon.png"
-                    width="48px"
-                    height="48px"
-                    alt="world"
-                  />
-                  <div>
-                    <p class="dark-blue-color fw-bold">Cargo Insurance</p>
-                    <p>Suspendisse vulputate tellus consectetur sem faucibus</p>
-                  </div>
-                </div>
-                <div class="d-flex mt-4 mb-5 mb-md-0">
-                  <img
-                    src="../images/listIcon.png"
-                    width="48px"
-                    height="48px"
-                    alt="world"
-                  />
-                  <div>
-                    <p class="dark-blue-color fw-bold">Worldwide</p>
-                    <p>Aliquam erat volutpat. Ut ut erat dignissim, eleifend</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4 d-flex flex-column blue-column">
-              <div class="mt-4 ms-4">
-                <p class="mt-4 mb-3 blue-col-heading">Services</p>
-                <p class="pt-3 mb-3 mb-md-0">Road Freight</p>
-                <p class="mb-3 mb-md-0">Shipping Freight</p>
-                <p class="mb-3 mb-md-0">Air Freight</p>
-                <p>Train Freight</p>
-                <p class="all-services-link">
-                  ALL SERVICES
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-arrow-right mb-1"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                    />
-                  </svg>
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="white-box-container d-block">
+          <h1 class="dark-blue-color fw-bold text-center">Shipping Freight</h1>
+          <p class="text-center mt-3">Home / Services / Shipping Freight</p>
         </div>
       </div>
     </section>
 
-    <section>
-      <div class="content-container-70vw mb-5">
-        <h1
-          id="rolso-services-heading"
-          class="dark-blue-color fw-bold text-center"
-        >
-          Rolso Logistic <br />Services
-        </h1>
-        <div class="d-flex mt-5 four-photos">
+    <section id="single-service-section">
+      <div class="content-container-70vw d-flex">
+        <div class="content-container-70-percent">
           <img
-            class="one-forth-photo"
-            src="../images/plane.png"
+            class="big-image"
+            src="../images/ship2.png"
             width="100%"
             alt=""
           />
-          <img
-            class="one-forth-photo"
-            src="../images/ship.png"
-            width="100%"
-            alt=""
-          />
-          <img
-            class="one-forth-photo"
-            src="../images/train.png"
-            width="100%"
-            alt=""
-          />
-          <img
-            class="one-forth-photo"
-            src="../images/truck.png"
-            width="100%"
-            alt=""
-          />
-        </div>
-      </div>
-    </section>
 
-    <section>
-      <div class="d-flex mt-5 pt-5 container-of-2-50vw-containers">
-        <div class="width-50vw-container mt-4">
-          <img class="img-fit" src="../images/ship2.png" alt="" />
-        </div>
-        <div class="width-50vw-container container-vertical-center">
-          <div class="ms-5 me-5">
-            <h2 class="dark-blue-color fw-bold font-size-40px mt-4 mt-lg-0">
-              Excelent company<br />quality services
-            </h2>
-            <p class="mt-4 mb-4 me-5 pe-5">
-              Donec lacinia purus et nisl dignissim, vel egestas nunc iaculis.
-              Maecenas elementum elementum ipsum, sit amet lacinia lectus
-              vulputate nec.
-            </p>
-            <button class="blue-button mt-4">
-              Consultation
-              <button class="blue-button-arrow">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14"
-                  height="14"
-                  fill="currentColor"
-                  class="bi bi-caret-right-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
-                  />
-                </svg>
-              </button>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="d-flex container-of-2-50vw-containers second-50vw-container">
-        <div class="width-50vw-container container-vertical-center">
-          <div class="ms-5 me-5">
-            <h2 class="dark-blue-color fw-bold font-size-40px">
-              <span class="very-dark-blue-color">Rolso</span>
-              transportation<br />company
-            </h2>
-            <p class="mt-4 mb-4">
-              Sed pulvinar ligula sapien, eget tincidunt mauris sollicitudin
-              sed. Vivamus vel nisl diam.
-            </p>
-            <div
-              class="
-                d-flex
-                white-boxes-with-icons-container
-                position-absolute
-                mt-3
-              "
-            >
-              <div class="white-box-container white-box-with-icon p-0 me-3">
-                <img
-                  src="../images/packageIcon.png"
-                  height="100px"
-                  alt="packageIcon"
-                />
-                <div class="mt-1">
-                  <p class="very-dark-blue-color fw-bold font-size-40px ms-3">
-                    1255+
-                  </p>
-                  <p class="ms-3 white-box-with-icon-text">
-                    Delivered packages
-                  </p>
-                </div>
-              </div>
-              <div
-                class="
-                  white-box-container white-box-with-icon
-                  p-0
-                  mt-3 mt-lg-0
-                  ms-lg-4
-                "
-              >
-                <img
-                  src="../images/mapIcon.png"
-                  height="100px"
-                  alt="packageIcon"
-                />
-                <div class="mt-1">
-                  <p class="light-blue-color fw-bold font-size-40px ms-3">
-                    50+
-                  </p>
-                  <p class="ms-3 white-box-with-icon-text">
-                    Years of experience
-                  </p>
-                </div>
-              </div>
+          <div class="row four-small-images-row mt-3">
+            <div class="col">
+              <img src="../images/ship.png" alt="" />
+            </div>
+            <div class="col">
+              <img src="../images/ship3.png" alt="" />
+            </div>
+            <div class="col">
+              <img src="../images/ship4.png" alt="" />
+            </div>
+            <div class="col">
+              <img src="../images/ship5.png" alt="" />
             </div>
           </div>
-        </div>
-        <div class="width-50vw-container">
-          <img class="img-fit" src="../images/ship3.png" alt="" />
-        </div>
-      </div>
-    </section>
 
-    <section id="consultation-form-section">
-      <div
-        class="
-          content-container-70vw
-          consultation-form-section-container
-          d-flex
-          mb-5
-        "
-      >
-        <div class="consultation-text-container">
-          <p class="dark-blue-color fw-bold font-size-40px">
-            How much will i earn?
+          <p class="mt-4 pt-4">
+            Phasellus ac venenatis magna. Aliquam vitae blandit mauris. Quisque
+            at ornare augue. Sed ac massa mattis, rhoncus nisl at, porttitor
+            libero. Donec lorem enim, hendrerit nec bibendum id, placerat mattis
+            tortor. Donec nec iaculis diam. Pellentesque vitae purus vulputate,
+            congue lectus nec, commodo nisi.
           </p>
-          <p class="mt-3 mb-4">
-            Maecenas dignissim, massa sed imperdiet fermentum, metus orci
-            vehicula sapien, eu posuere.
+          <p class="mt-4">
+            Proin viverra, diam bibendum fermentum tempus, mi nunc ornare erat,
+            a convallis dolor augue eu lectus. Vivamus tempor velit id mattis
+            sagittis. Quisque porta purus et odio aliquet, at tincidunt dolor
+            blandit. Quisque ut nibh enim. Pellentesque id ultrices libero,
+            vitae gravida libero. Vivamus facilisis sagittis metus. Nullam
+            molestie ex ac dui elementum blandit. Integer vitae venenatis orci.
+            Morbi sollicitudin dictum massa, eu sodales mauris egestas id.
           </p>
-          <p class="dark-blue-color fw-bold">Call us for consultation</p>
-          <p
-            class="
-              very-dark-blue-color
-              fw-bold
-              font-size-40px
-              mt-2
-              mb-3 mb-lg-0
-              mt-lg-1
-            "
-          >
-            +8 (495) 989 20 11
+          <p class="mt-4">
+            Sed suscipit, mi vel sodales pharetra, enim dolor lacinia tellus,
+            vel mollis felis mauris et lorem. Cras convallis enim at hendrerit
+            pharetra. Mauris nec tincidunt tortor, tincidunt elementum orci.
+            Morbi at facilisis turpis. Donec pulvinar quam sed libero vehicula
+            posuere.
           </p>
-        </div>
-        <div class="consultation-form-container white-box-container">
-          <form class="d-flex flex-column">
-            <div class="d-flex justify-content-between two-inputs-container">
-              <div class="label-and-input">
-                <label for="full-name">Full name</label><br />
-                <input
-                  type="text"
-                  id="full-name"
-                  name="full-name"
-                  placeholder="John Doe"
-                />
-              </div>
-              <div class="label-and-input">
-                <label for="number">Phone</label><br />
-                <input
-                  type="number"
-                  id="number"
-                  name="number"
-                  placeholder="+1 234 456 7890"
-                />
-              </div>
-            </div>
-            <div
-              class="
-                d-flex
-                justify-content-between
-                two-inputs-container
-                mt-0 mt-lg-4
-              "
-            >
-              <div class="label-and-input">
-                <label for="email">Email</label><br />
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="JohnDoe@gmail.com"
-                />
-              </div>
-              <div class="label-and-input">
-                <label for="subject">Subject</label><br />
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="Road Freight"
-                />
-              </div>
-            </div>
-            <div class="label-and-input mt-3 mt-lg-4">
-              <label for="message">Message</label><br />
-              <textarea
-                id="message"
-                name="message"
-                placeholder="Text"
-              ></textarea>
-            </div>
-            <div class="d-flex justify-content-end mt-4">
-              <button type="submit" class="blue-button mt-2">
-                Appointment
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-    <section id="three-images-25-40-25vw" class="pt-5 mb-5">
-      <div class="d-flex">
-        <div class="container-25vw">
-          <img class="img-fit" src="../images/ship4.png" alt="" />
-        </div>
-        <div class="container-40vw">
-          <img class="img-fit" src="../images/ship5.png" alt="" />
-          <div class="d-flex flex-column blue-column">
-            <div class="mt-3 ms-4 me-4">
-              <p class="mt-4 mb-4 blue-col-heading">
-                Provides fast tracking for your cargo
-              </p>
-              <p class="pt-3">
-                Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra
-              </p>
-              <p class="all-services-link">
-                ALL SERVICES
+
+          <div class="row mt-5">
+            <div class="col">
+              <h3 class="fw-bold dark-blue-color">Industries served</h3>
+              <div class="d-flex align-items-center mt-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-arrow-right mb-1"
+                  class="bi bi-check-circle dark-blue-color"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
                   />
                 </svg>
+                <p class="ms-2">Ut rutrum enim quis feugiat maxi</p>
+              </div>
+              <div class="d-flex align-items-center mt-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-circle dark-blue-color"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+                <p class="ms-2">Cras nibh massa, tincidunt dignissim pell</p>
+              </div>
+              <div class="d-flex align-items-center mt-2 mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-circle dark-blue-color"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+                <p class="ms-2">Aliquam volutpat nulla in</p>
+              </div>
+            </div>
+            <div class="col">
+              <h3 class="fw-bold dark-blue-color">Services offered</h3>
+              <div class="d-flex align-items-center mt-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-circle dark-blue-color"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+                <p class="ms-2">Ut rutrum enim quis feugiat maxi</p>
+              </div>
+              <div class="d-flex align-items-center mt-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-circle dark-blue-color"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+                <p class="ms-2">Cras nibh massa, tincidunt dignissim pell</p>
+              </div>
+              <div class="d-flex align-items-center mt-2 mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-check-circle dark-blue-color"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+                <p class="ms-2">Aliquam volutpat nulla in</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="mt-5">
+            Duis imperdiet tristique elit, ut viverra sem condimentum sed. Donec
+            et elit ut massa posuere fringilla quis in urna. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Donec fringilla odio id
+            mauris pharetra dictum. In tincidunt ex urna, id pretium nulla
+            pretium sed. Integer eu orci mollis, aliquet felis eu, tempor orci.
+            Cras accumsan vel diam tempus sodales. Phasellus cursus tincidunt
+            sapien, sit amet ultricies massa mollis id.
+          </p>
+          <p class="mt-4">
+            Cras nibh massa, tincidunt dignissim pellentesque non, ullamcorper
+            sit amet nulla. Aenean magna nisl, dignissim a ligula id, bibendum
+            congue nulla. Sed lobortis tempor commodo.
+          </p>
+
+          <h2 class="fw-bold dark-blue-color mt-5">Trucks</h2>
+          <div class="row mt-3">
+            <div class="col">
+              <img
+                class="one-of-two-images"
+                src="../images/singleServiceShip.png"
+                alt=""
+              />
+              <p class="fw-bold dark-blue-color font-size-24px mt-2">
+                Cascadia Evolution
               </p>
+              <p class="very-dark-blue-color">72 full-size condo</p>
+            </div>
+            <div class="col">
+              <img
+                class="one-of-two-images"
+                src="../images/singleServiceShip2.png"
+                alt=""
+              />
+              <p class="fw-bold dark-blue-color font-size-24px mt-2">
+                Cascadia Evolution
+              </p>
+              <p class="very-dark-blue-color">72 full-size condo</p>
             </div>
           </div>
         </div>
-        <div class="container-25vw">
-          <img class="img-fit" src="../images/ship6.png" alt="" />
+
+        <div class="width-25-percent">
+          <div class="white-box-container d-flex justify-content-between">
+            <p class="dark-blue-color fw-bold font-size-20px">Other Services</p>
+            <img src="../images/fileIcon.png" height="60px" alt="" />
+          </div>
+
+          <div class="ms-3 mt-4">
+            <p>Road Freight</p>
+            <p class="mt-1 mb-1">Train Freight</p>
+            <p>Air Freight</p>
+          </div>
+
+          <div class="white-box-container d-flex justify-content-between mt-5">
+            <p class="dark-blue-color fw-bold font-size-20px">Contacts</p>
+            <img src="../images/locationIcon3.png" height="60px" alt="" />
+          </div>
+
+          <div class="ms-3 mt-4">
+            <p>Address</p>
+            <p class="mt-1 mb-1 fw-bold dark-blue-color">
+              4621 Hill Croft Farm Road
+            </p>
+            <p class="mt-3">Air Freight</p>
+            <p class="mt-1 mb-1 fw-bold dark-blue-color">+8 (495) 989 20 11</p>
+          </div>
         </div>
       </div>
     </section>
@@ -817,25 +638,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="content-container-70vw pt-5">
-        <h2
-          class="dark-blue-color fw-bold font-size-40px text-center mt-5 mb-5"
-        >
-          We provide the future<br />of delivery
-        </h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1544.8023447657101!2d-80.48771957437965!3d39.25184452353924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884a3fc54b9eca07%3A0xfc2dfaeada1b179d!2zSGlsbCBDcm9mdCBGYXJtIFJkLCBXZXN0IFZpcmdpbmlhIDI2MzAxLCDQodGK0LXQtNC40L3QtdC90Lgg0YnQsNGC0Lg!5e0!3m2!1sbg!2sbg!4v1639585170603!5m2!1sbg!2sbg"
-          width="100%"
-          height="600px"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          class="mb-5"
-        ></iframe>
       </div>
     </section>
 

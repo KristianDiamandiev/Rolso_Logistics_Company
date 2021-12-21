@@ -43,41 +43,53 @@ header {
   }
 }
 
-#grid-section {
-  margin-top: 60px;
-  margin-bottom: 100px;
+#single-service-section {
+  .content-container-70-percent {
+    width: 70%;
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
-
-    .grid-item {
-      border: none;
-      margin-top: 40px;
+    .big-image {
       width: 100%;
-      cursor: pointer;
-      text-decoration: none;
-      color: black;
-      .images {
-        position: relative;
+      height: 60vh;
+      object-fit: cover;
+    }
+
+    .four-small-images-row {
+      img {
         width: 100%;
+        height: 140px;
+        object-fit: cover;
+      }
+    }
 
-        img {
-          width: 100%;
-          height: 400px;
-          object-fit: cover;
-        }
+    .one-of-two-images {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
 
-        .img-icon {
-          width: 100px;
-          height: 100px;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          z-index: 2;
-        }
+    .font-size-24px {
+      font-size: 24px;
+    }
+  }
+
+  .width-25-percent {
+    width: 25%;
+    margin-left: auto;
+
+    .white-box-container {
+      padding: 0;
+      padding-left: 20px;
+      height: 60px;
+      align-items: center;
+
+      .font-size-20px {
+        font-size: 20px;
       }
     }
   }
+}
+
+#plans-section {
+  margin-top: 80px;
+  margin-bottom: 120px;
 }

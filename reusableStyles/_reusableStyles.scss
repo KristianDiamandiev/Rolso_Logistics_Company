@@ -110,6 +110,51 @@ section {
   }
 }
 
+#plans-section {
+  margin-top: 200px;
+
+  .plans-text {
+    margin: 0 20%;
+  }
+
+  .plans-boxes {
+    margin-top: 110px;
+  }
+
+  .plan-heading {
+    font-size: 20px;
+  }
+
+  .plan-discount {
+    align-self: center;
+    font-size: 16px;
+  }
+
+  .plan-price {
+    span {
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+
+  .white-box-container {
+    position: relative;
+
+    .best-offer-box {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      top: -40px;
+      left: 20%;
+      right: 20%;
+      padding: 8px 40px;
+      background-color: rgb(255, 204, 41);
+      color: $darkBlue;
+      font-weight: 600;
+    }
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .content-container-70vw {
     width: 90vw;
@@ -158,6 +203,12 @@ section {
           font-size: 32px;
         }
       }
+    }
+  }
+
+  #plans-section {
+    .plans-text {
+      margin: 0;
     }
   }
 }

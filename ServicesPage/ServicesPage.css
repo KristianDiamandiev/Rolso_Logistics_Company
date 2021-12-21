@@ -124,6 +124,55 @@ section {
   margin-top: -6px;
 }
 
+#plans-section {
+  margin-top: 200px;
+}
+
+#plans-section .plans-text {
+  margin: 0 20%;
+}
+
+#plans-section .plans-boxes {
+  margin-top: 110px;
+}
+
+#plans-section .plan-heading {
+  font-size: 20px;
+}
+
+#plans-section .plan-discount {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 16px;
+}
+
+#plans-section .plan-price span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#plans-section .white-box-container {
+  position: relative;
+}
+
+#plans-section .white-box-container .best-offer-box {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -40px;
+  left: 20%;
+  right: 20%;
+  padding: 8px 40px;
+  background-color: #ffcc29;
+  color: #19456b;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1400px) {
   .content-container-70vw {
     width: 90vw;
@@ -172,6 +221,9 @@ section {
   }
   .second-50vw-container .white-boxes-with-icons-container .white-box-with-icon .font-size-40px {
     font-size: 32px;
+  }
+  #plans-section .plans-text {
+    margin: 0;
   }
 }
 
@@ -545,8 +597,12 @@ header .yellow-line {
 }
 
 #grid-section .grid-container .grid-item {
+  border: none;
   margin-top: 40px;
   width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 #grid-section .grid-container .grid-item .images {
