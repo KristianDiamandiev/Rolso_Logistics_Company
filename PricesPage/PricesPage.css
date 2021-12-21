@@ -591,52 +591,31 @@ header .yellow-line {
   font-size: 64px;
 }
 
-#projects-section .projects-navbar {
-  margin: auto;
-  margin-top: 80px;
-  width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+#plans-section {
+  margin-top: 0;
 }
 
-#projects-section .projects-navbar p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 15%;
-  margin: 2%;
+#plans-section .best-offer-box {
+  background-color: #2e8995 !important;
+  color: white !important;
 }
 
-#projects-section .projects-grid1,
-#projects-section .projects-grid2 {
-  display: -ms-grid;
-  display: grid;
-  -webkit-column-gap: 30px;
-          column-gap: 30px;
+#wide-plans-section {
+  margin-top: 0;
+  margin-bottom: 100px;
 }
 
-#projects-section .projects-grid1 img,
-#projects-section .projects-grid2 img {
-  width: 100%;
-  height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
+#wide-plans-section .white-box-container {
+  padding: 40px 60px;
 }
 
-#projects-section .projects-grid1 {
-  -ms-grid-columns: 2.5fr 1.5fr 2fr;
-      grid-template-columns: 2.5fr 1.5fr 2fr;
+#wide-plans-section .second-plan {
+  background: linear-gradient(160deg, #170eca, #2b8691);
+  color: white !important;
 }
 
-#projects-section .projects-grid2 {
-  -ms-grid-columns: 2.5fr 1.5fr 1.5fr;
-      grid-template-columns: 2.5fr 1.5fr 1.5fr;
+#wide-plans-section .second-plan button {
+  background-color: transparent;
+  border: 1px solid white;
 }
-/*# sourceMappingURL=ProjectsPage.css.map */
+/*# sourceMappingURL=PricesPage.css.map */

@@ -1,0 +1,72 @@
+@import "../reusableStyles/variablesAndMixins";
+@import "../reusableStyles/reusableStyles";
+@import "../reusableStyles/header";
+@import "../reusableStyles/footer";
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 240px;
+  z-index: 1;
+
+  .content-container-70vw {
+    margin-top: 0px;
+  }
+
+  .yellow-line {
+    position: absolute;
+    background-color: #ffcc29;
+    width: 120px;
+    height: 6px;
+    bottom: -3px;
+    left: 270px;
+  }
+}
+
+#white-box-section {
+  position: relative;
+  z-index: 2;
+
+  .white-box-container {
+    width: 66%;
+    margin: auto;
+    margin-top: -80px;
+    padding: 50px 0px;
+
+    h1 {
+      font-size: 64px;
+    }
+  }
+}
+
+#plans-section {
+  margin-top: 0;
+
+  .best-offer-box {
+    background-color: $lightBlue !important;
+    color: white !important;
+  }
+}
+
+#wide-plans-section {
+  margin-top: 0;
+  margin-bottom: 100px;
+
+  .white-box-container {
+    padding: 40px 60px;
+  }
+
+  .second-plan {
+    background: linear-gradient(160deg, rgb(23, 14, 202), rgb(43, 134, 145));
+    color: white !important;
+
+    button {
+      background-color: transparent;
+      border: 1px solid white;
+    }
+  }
+}

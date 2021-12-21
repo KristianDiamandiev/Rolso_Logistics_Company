@@ -124,39 +124,47 @@ section {
   margin-top: -6px;
 }
 
-#plans-section {
+#plans-section,
+#wide-plans-section {
   margin-top: 200px;
 }
 
-#plans-section .plans-text {
+#plans-section .plans-text,
+#wide-plans-section .plans-text {
   margin: 0 20%;
 }
 
-#plans-section .plans-boxes {
+#plans-section .plans-boxes,
+#wide-plans-section .plans-boxes {
   margin-top: 110px;
 }
 
-#plans-section .plan-heading {
+#plans-section .plan-heading,
+#wide-plans-section .plan-heading {
   font-size: 20px;
 }
 
-#plans-section .plan-discount {
+#plans-section .plan-discount,
+#wide-plans-section .plan-discount {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   font-size: 16px;
 }
 
-#plans-section .plan-price span {
+#plans-section .plan-price span,
+#wide-plans-section .plan-price span {
   font-size: 40px;
   font-weight: bold;
 }
 
-#plans-section .white-box-container {
+#plans-section .white-box-container,
+#wide-plans-section .white-box-container {
   position: relative;
 }
 
-#plans-section .white-box-container .best-offer-box {
+#plans-section .white-box-container .best-offer-box,
+#wide-plans-section .white-box-container .best-offer-box {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
