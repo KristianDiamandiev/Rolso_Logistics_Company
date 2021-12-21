@@ -1,0 +1,88 @@
+@import "../reusableStyles/variablesAndMixins";
+@import "../reusableStyles/reusableStyles";
+@import "../reusableStyles/header";
+@import "../reusableStyles/footer";
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 240px;
+  z-index: 1;
+
+  .content-container-70vw {
+    margin-top: 0px;
+  }
+
+  .yellow-line {
+    position: absolute;
+    background-color: #ffcc29;
+    width: 100px;
+    height: 6px;
+    bottom: -3px;
+    left: 140px;
+  }
+}
+
+#white-box-section {
+  position: relative;
+  z-index: 2;
+
+  .white-box-container {
+    width: 66%;
+    margin: auto;
+    margin-top: -80px;
+    padding: 50px 0px;
+
+    h1 {
+      font-size: 64px;
+    }
+  }
+}
+
+#faqs-sections {
+  .width-55-percent {
+    width: 55%;
+
+    .droppable-box {
+      margin: 14px 0;
+
+      .droppable-box-heading {
+        font-size: 20px;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .togglable-box {
+      display: none;
+    }
+  }
+
+  .width-45-percent {
+    width: 45%;
+  }
+}
+
+#gradient-box {
+  margin-top: 80px;
+
+  .gradient-box1 {
+    padding: 60px;
+    margin-right: 10%;
+    background: linear-gradient(
+      160deg,
+      rgba(43, 43, 156, 0.95),
+      rgba(43, 134, 145, 0.75)
+    );
+
+    .text-container-width-50-percent {
+      width: 50%;
+    }
+  }
+}
