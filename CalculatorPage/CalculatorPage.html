@@ -16,15 +16,15 @@
       crossorigin="anonymous"
     ></script>
     <script src="../reusableScripts/header.js"></script>
-    <script src="./ProjectsPage.js"></script>
+    <script src="./CalculatorPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./ProjectsPage.css" />
-    <title>Projects Page</title>
+    <link rel="stylesheet" href="./CalculatorPage.css" />
+    <title>Calculator Page</title>
   </head>
   <body>
     <header>
@@ -156,65 +156,105 @@
     <section id="white-box-section">
       <div class="content-container-70vw mb-5">
         <div class="white-box-container d-block">
-          <h1 class="dark-blue-color fw-bold text-center">Projects</h1>
-          <p class="text-center mt-3">Home / Services / Projects</p>
+          <h1 class="dark-blue-color fw-bold text-center">Calculator</h1>
+          <p class="text-center mt-3">Home / Services / Calculator</p>
         </div>
       </div>
     </section>
 
-    <section id="projects-section">
-      <div class="content-container-70vw mb-5">
-        <div class="projects-navbar">
-          <p class="fw-bold very-dark-blue-color">All</p>
-          <p class="fw-bold dark-blue-color">Road</p>
-          <p class="fw-bold dark-blue-color">Shipping</p>
-          <p class="fw-bold dark-blue-color">Air</p>
-          <p class="fw-bold dark-blue-color">Train</p>
-        </div>
-
-        <div class="projects-grid1 mt-4">
-          <div>
-            <img src="../images/projectImage1.png" alt="" />
-          </div>
-          <div>
-            <img src="../images/projectImage2.png" alt="" />
-          </div>
-          <div>
-            <img src="../images/projectImage3.png" alt="" />
-          </div>
-        </div>
-
-        <div class="projects-grid2 mt-4">
-          <div>
-            <img src="../images/projectImage4.png" alt="" />
-          </div>
-          <div>
-            <img src="../images/projectImage5.png" alt="" />
-          </div>
-          <div>
-            <img src="../images/projectImage6.png" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center pb-5">
-        <button class="blue-button mt-2">
-          Consultation
-          <button class="blue-button-arrow mt-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="14"
-              fill="currentColor"
-              class="bi bi-caret-right-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+    <section id="form-section">
+      <div class="content-container-70vw">
+        <h2 class="fw-bold dark-blue-color text-center font-size-40px">
+          Calculation form
+        </h2>
+        <p class="text-center mt-3">
+          Morbi at facilisis turpis. Donec pulvinar quam sed libero vehicula
+          posuere.<br />
+          Fusce ligula ipsum, rhoncus non
+        </p>
+        <form class="d-flex flex-column mt-4 pt-3">
+          <div class="d-flex justify-content-between mt-4">
+            <div class="label-and-input width-32-percent">
+              <label for="truckload-type">Truckload Type</label><br />
+              <select name="truckload-type" id="truckload-type">
+                <option value="value1">Value1</option>
+                <option value="value2">Value2</option>
+                <option value="value3">Value3</option>
+              </select>
+            </div>
+            <div class="label-and-input width-32-percent">
+              <label for="type-of-service">Type of service</label><br />
+              <select name="type-of-service" id="type-of-service">
+                <option value="value1">Value1</option>
+                <option value="value2">Value2</option>
+                <option value="value3">Value3</option>
+              </select>
+            </div>
+            <div class="label-and-input width-32-percent">
+              <label for="text">Distance (km)</label><br />
+              <input
+                type="text"
+                id="Distance"
+                name="Distance"
+                placeholder="0"
               />
-            </svg>
-          </button>
-        </button>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between mt-4">
+            <div class="label-and-input width-23-percent">
+              <label for="weight">Weight</label><br />
+              <input type="text" id="weight" name="weight" placeholder="0" />
+            </div>
+            <div class="label-and-input width-23-percent">
+              <label for="height">Height</label><br />
+              <input type="text" id="height" name="height" placeholder="0" />
+            </div>
+            <div class="label-and-input width-23-percent">
+              <label for="width">Width</label><br />
+              <input type="text" id="width" name="width" placeholder="0" />
+            </div>
+            <div class="label-and-input width-23-percent">
+              <label for="length">Length</label><br />
+              <input type="text" id="length" name="length" placeholder="0" />
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center mt-5">
+            <button type="submit" class="blue-button mt-2">Appointment</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="gradient-box">
+      <div class="content-container-70vw">
+        <div class="text-white gradient-box1">
+          <h3 class="fw-bold">Quality services</h3>
+          <p class="text-container-width-50-percent mt-3 mb-3">
+            Aenean elementum justo et elit imperdiet tincidunt. Aliquam
+            tristique nunc quis mollis pretium. Etiam ut viverra nisl. Nunc ac
+          </p>
+          <a href="../ServicesPage/ServicesPage.html">
+            <button class="blue-button mt-4 mt-lg-3">
+              Services
+              <button class="blue-button-arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  fill="currentColor"
+                  class="bi bi-caret-right-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                  />
+                </svg>
+              </button>
+            </button>
+          </a>
+        </div>
       </div>
     </section>
 
