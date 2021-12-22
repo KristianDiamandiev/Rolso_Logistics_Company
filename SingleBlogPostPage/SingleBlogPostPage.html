@@ -16,15 +16,15 @@
       crossorigin="anonymous"
     ></script>
     <script src="../reusableScripts/header.js"></script>
-    <script src="./BlogAllPostsPage.js"></script>
+    <script src="./SingleBlogPostPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./BlogAllPostsPage.css" />
-    <title>Blog Page</title>
+    <link rel="stylesheet" href="./SingleBlogPostPage.css" />
+    <title>Single Blog Post Page</title>
   </head>
   <body>
     <header>
@@ -155,414 +155,289 @@
 
     <section id="white-box-section">
       <div class="content-container-70vw mb-5">
-        <div class="white-box-container d-block">
-          <h1 class="dark-blue-color fw-bold text-center">Blog</h1>
-          <p class="text-center mt-3">Home / About / Blog</p>
-        </div>
+        <img src="../images/warehouse.png" alt="" />
       </div>
     </section>
 
-    <section id="blog-posts-section">
+    <section id="blogpost-info-section">
       <div class="content-container-70vw d-flex">
         <div class="content-container-70-percent">
-          <div class="post">
-            <img
-              class="big-image"
-              src="../images/ship2.png"
-              width="100%"
-              alt=""
-            />
-            <div class="d-flex mt-3 mb-2">
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-calendar very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
-                  />
-                </svg>
-                <p>28 Jan 2022</p>
-              </div>
-              <div class="d-flex ms-4 me-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-person-circle very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                  <path
-                    fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                  />
-                </svg>
-                <p>merkulove</p>
-              </div>
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-folder very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
-                  />
-                </svg>
-                <p>cargo, logistics</p>
-              </div>
+          <p>Home / About / Blog</p>
+          <h1 class="fw-bold dark-blue-color font-size-48px mt-2 mb-2">
+            Maintain positive momentum
+          </h1>
+
+          <div class="d-flex mt-3 mb-2">
+            <div class="d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-calendar very-dark-blue-color me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
+                />
+              </svg>
+              <p>28 Jan 2022</p>
             </div>
-            <h2 class="fw-bold dark-blue-color mt-3">
-              Excelent company quality services
-            </h2>
-            <p class="mt-3">
-              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
-              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
-            </p>
+            <div class="d-flex ms-4 me-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-person-circle very-dark-blue-color me-2"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                />
+              </svg>
+              <p>merkulove</p>
+            </div>
+            <div class="d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-folder very-dark-blue-color me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
+                />
+              </svg>
+              <p>cargo, logistics</p>
+            </div>
           </div>
 
-          <div class="post">
-            <img
-              class="big-image"
-              src="../images/truck.png"
-              width="100%"
-              alt=""
-            />
-            <div class="d-flex mt-3 mb-2">
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-calendar very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
-                  />
-                </svg>
-                <p>28 Jan 2022</p>
-              </div>
-              <div class="d-flex ms-4 me-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-person-circle very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                  <path
-                    fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                  />
-                </svg>
-                <p>merkulove</p>
-              </div>
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-folder very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
-                  />
-                </svg>
-                <p>cargo, logistics</p>
-              </div>
+          <p class="mt-4">
+            Etiam id quam lacinia, vulputate neque nec, mollis quam. Donec ut
+            quam urna. Proin bibendum risus quis sem ultricies, et vulputate
+            erat pulvinar. Cras posuere leo nisi, non scelerisque tortor congue
+            nec. Vivamus quis urna ac velit dapibus bibendum vitae a nibh.
+            Suspendisse id libero eros. In dapibus bibendum sem sit amet
+            feugiat.
+          </p>
+          <p class="mt-4">
+            Aliquam a ligula metus. Duis vel vestibulum mi, nec dapibus quam.
+            Maecenas sit amet tortor laoreet, pretium eros eget, tristique
+            felis. Cras non lobortis sapien. Aliquam porta, enim quis mollis
+            dignissim, massa lacus finibus mauris, at varius purus nunc nec
+            tortor. Aenean vestibulum nec arcu sed tincidunt. Nunc lectus quam,
+            elementum non felis vel, finibus rhoncus nunc.
+          </p>
+          <p class="mt-4">
+            Phasellus molestie hendrerit pharetra. Cras congue, nibh et lacinia
+            tincidunt, nulla lorem ornare nunc, ac aliquam lorem diam vel
+            tellus. Donec vel elementum orci. Praesent ut elit eu elit consequat
+            faucibus ut vel lorem.
+          </p>
+
+          <p>
+            Cras cursus ultrices massa et dapibus. Nunc vel hendrerit massa,
+            ullamcorper maximus erat. Fusce molestie dolor turpis. Etiam id quam
+            lacinia, vulputate neque nec, mollis quam. Donec ut quam urna. Proin
+            bibendum risus quis sem ultricies, et vulputate erat pulvinar.
+          </p>
+          <p>
+            Aliquam a ligula metus. Duis vel vestibulum mi, nec dapibus quam.
+            Maecenas sit amet tortor laoreet, pretium eros eget, tristique
+            felis. Cras non lobortis sapien. Aliquam porta, enim quis mollis
+            dignissim, massa lacus finibus mauris, at varius purus nunc nec
+            tortor. Aenean vestibulum nec arcu sed tincidunt. Nunc lectus quam,
+            elementum non felis vel, finibus rhoncus nunc.
+          </p>
+
+          <div class="mt-4">
+            <div class="d-flex align-items-center mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-check-circle very-dark-blue-color"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                />
+              </svg>
+              <p class="ms-2">
+                Maecenas pretium interdum mauris sed sollicitudin
+              </p>
             </div>
-            <h2 class="fw-bold dark-blue-color mt-3">
-              Road, Air And Sea Transport Are Available
-            </h2>
-            <p class="mt-3">
-              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
-              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
-            </p>
+            <div class="d-flex align-items-center mt-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-check-circle very-dark-blue-color"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                />
+              </svg>
+              <p class="ms-2">
+                Sed interdum lacinia sem, sed euismod purus rhoncus a
+              </p>
+            </div>
+            <div class="d-flex align-items-center mt-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-check-circle very-dark-blue-color"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                />
+              </svg>
+              <p class="ms-2">Donec cursus interdum purus, et fermentum</p>
+            </div>
           </div>
 
-          <div class="post">
-            <img
-              class="big-image"
-              src="../images/servicesShip3.png"
-              width="100%"
-              alt=""
-            />
-            <div class="d-flex mt-3 mb-2">
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-calendar very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
-                  />
-                </svg>
-                <p>28 Jan 2022</p>
-              </div>
-              <div class="d-flex ms-4 me-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-person-circle very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                  <path
-                    fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                  />
-                </svg>
-                <p>merkulove</p>
-              </div>
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-folder very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
-                  />
-                </svg>
-                <p>cargo, logistics</p>
-              </div>
-            </div>
-            <h2 class="fw-bold dark-blue-color mt-3">
-              Packaging And Logistics Services To The World
-            </h2>
-            <p class="mt-3">
-              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
-              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
+          <p class="mt-4">
+            Proin laoreet ultrices dignissim. Proin dapibus dolor eu pulvinar
+            viverra. Integer in mi nec lectus rutrum gravida id non neque.
+            Vestibulum nisl dolor, blandit quis porttitor sed, consequat non
+            nibh. Phasellus pulvinar mauris ac eros porttitor consequat.
+          </p>
+
+          <div
+            class="
+              d-flex
+              flex-column
+              justify-content-center
+              box-border-left
+              mt-4
+              ps-4
+            "
+          >
+            <p class="fw-bold">
+              Ut viverra odio arcu, sit amet gravida nulla consequat eget. Orci
+              varius natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus. Mauris maximus purus nec urna sodales, a fringilla
+              mauris ultrices. Quisque ut interdum ipsum. Vivamus quis augue
+              quis turpis porta ullamcorper nec nec est.
             </p>
+            <p class="fw-bold dark-blue-color mt-3">Maria Espare</p>
+            <p class="fw-bold very-dark-blue-color mt-2">Client</p>
           </div>
 
-          <div class="post">
-            <img
-              class="big-image"
-              src="../images/servicesPlane.png"
-              width="100%"
-              alt=""
-            />
-            <div class="d-flex mt-3 mb-2">
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-calendar very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
-                  />
-                </svg>
-                <p>28 Jan 2022</p>
-              </div>
-              <div class="d-flex ms-4 me-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-person-circle very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                  <path
-                    fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                  />
-                </svg>
-                <p>merkulove</p>
-              </div>
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-folder very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
-                  />
-                </svg>
-                <p>cargo, logistics</p>
-              </div>
-            </div>
-            <h2 class="fw-bold dark-blue-color mt-3">
-              Plane Transport To The Variety Countries
-            </h2>
-            <p class="mt-3">
-              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
-              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
-            </p>
+          <p class="mt-4">
+            Nulla at accumsan nisl. Nunc blandit ornare purus ac bibendum. Sed
+            sit amet blandit lectus. Nunc rutrum mi vitae arcu cursus, ac
+            pretium justo aliquam. Etiam vitae lacinia tellus. Ut porttitor sem
+            non pharetra condimentum. Curabitur accumsan lobortis sem, a
+            tristique justo vulputate quis.
+          </p>
+          <p class="mt-4 border-bottom pb-5">
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce
+            dapibus efficitur neque quis tristique. Etiam luctus nulla est, nec
+            consequat leo dictum id. Pellentesque eget arcu ac mauris iaculis
+            facilisis. Nulla rutrum, sem at sodales fringilla, lacus mi sodales
+            nibh, at imperdiet nulla orci at lacus. Pellentesque venenatis
+            tincidunt arcu a interdum.
+          </p>
+          <div class="d-flex align-items-center mt-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-tags dark-blue-color"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"
+              />
+              <path
+                d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"
+              />
+            </svg>
+            <p class="ms-2 text-secondary">cargo, logistics, trucks</p>
           </div>
 
-          <div class="post">
-            <img
-              class="big-image"
-              src="../images/singleServiceShip.png"
-              width="100%"
-              alt=""
-            />
-            <div class="d-flex mt-3 mb-2">
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-calendar very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
-                  />
-                </svg>
-                <p>28 Jan 2022</p>
-              </div>
-              <div class="d-flex ms-4 me-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-person-circle very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                  <path
-                    fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                  />
-                </svg>
-                <p>merkulove</p>
-              </div>
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-folder very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
-                  />
-                </svg>
-                <p>cargo, logistics</p>
-              </div>
-            </div>
-            <h2 class="fw-bold dark-blue-color mt-3">
-              The Passenger Transport Public Operators.
-            </h2>
-            <p class="mt-3">
-              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
-              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
-            </p>
-          </div>
+          <section id="leave-comment-section">
+            <div class="consultation-form-container white-box-container">
+              <form class="d-flex flex-column">
+                <h2 class="dark-blue-color fw-bold">Leave a comment</h2>
 
-          <div class="post">
-            <img
-              class="big-image"
-              src="../images/plane.png"
-              width="100%"
-              alt=""
-            />
-            <div class="d-flex mt-3 mb-2">
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-calendar very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
+                <div class="d-flex mt-3 mb-3">
+                  <img
+                    src="../images/face.png"
+                    width="80px"
+                    height="80px"
+                    alt=""
                   />
-                </svg>
-                <p>28 Jan 2022</p>
-              </div>
-              <div class="d-flex ms-4 me-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-person-circle very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                  <path
-                    fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                  />
-                </svg>
-                <p>merkulove</p>
-              </div>
-              <div class="d-flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-folder very-dark-blue-color me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
-                  />
-                </svg>
-                <p>cargo, logistics</p>
-              </div>
-            </div>
-            <h2 class="fw-bold dark-blue-color mt-3">
-              Air Transport May Be Public Operators
-            </h2>
-            <p class="mt-3">
-              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
-              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
-            </p>
-          </div>
+                  <div class="d-flex flex-column ms-3">
+                    <p class="fw-bold dark-blue-color mb-1">Marina Kranton</p>
+                    <p>
+                      Proin laoreet ultrices dignissim. Proin dapibus dolor eu
+                      pulvinar viverra. Integer in mi nec lectus rutrum gravida
+                      id non neque
+                    </p>
+                  </div>
+                </div>
 
-          <div class="page-buttons mt-5">
-            <img src="../images/arrowLeftIcon.png" height="20px" alt="" />
-            <p>1</p>
-            <p class="currentPage">2</p>
-            <p>3</p>
-            <p>4</p>
-            <img src="../images/arrowRightIcon.png" height="20px" alt="" />
-          </div>
+                <div
+                  class="d-flex justify-content-between two-inputs-container"
+                >
+                  <div class="label-and-input">
+                    <label for="full-name">Full name</label><br />
+                    <input
+                      type="text"
+                      id="full-name"
+                      name="full-name"
+                      placeholder="John Doe"
+                    />
+                  </div>
+                  <div class="label-and-input">
+                    <label for="email">Email</label><br />
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="JohnDoe@gmail.com"
+                    />
+                  </div>
+                </div>
+                <div class="label-and-input mt-3 mt-lg-4">
+                  <label for="message">Message</label><br />
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Text"
+                  ></textarea>
+                </div>
+                <div class="d-flex justify-content-end mt-4">
+                  <button type="submit" class="blue-button mt-2">
+                    Appointment
+                  </button>
+                </div>
+              </form>
+            </div>
+          </section>
         </div>
 
         <div class="width-25-percent">
