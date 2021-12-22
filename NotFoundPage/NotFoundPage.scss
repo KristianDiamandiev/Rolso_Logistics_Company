@@ -1,0 +1,48 @@
+@import "../reusableStyles/variablesAndMixins";
+@import "../reusableStyles/reusableStyles";
+
+body {
+  overflow-x: hidden;
+}
+
+#not-found-section {
+  .not-found-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(160deg, rgb(43, 43, 156), rgb(43, 134, 145));
+
+    h2 {
+      font-size: 320px;
+      color: rgba(255, 255, 255, 0.404);
+      position: fixed;
+      left: 50%;
+      transform: translate(-50%, 0);
+      top: 15%;
+    }
+
+    .not-found-content-container {
+      height: 100vh;
+      @include flexJustifyAlign(center, center);
+      flex-direction: column;
+
+      p {
+        font-size: 60px;
+      }
+
+      input {
+        width: 40vw;
+        padding: 10px 10px;
+      }
+
+      .very-dark-blue-box {
+        background-color: $veryDarkBlue;
+        padding: 10px 15px;
+        color: white;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

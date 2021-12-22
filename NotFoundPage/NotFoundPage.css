@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins, Rubik, sans-serif;
+}
+
+p,
+h1 {
+  margin: 0;
+}
+
+section {
+  width: 100vw;
+}
+
+.content-container-70vw {
+  width: 70vw;
+  margin: auto;
+}
+
+.blue-button {
+  background-color: #0f11b1;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 150px;
+}
+
+.blue-button-arrow {
+  background-color: #00008e;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 40px;
+}
+
+.transparent-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
+
+.white-box-container {
+  padding: 40px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.dark-blue-color {
+  color: #19456b;
+}
+
+.very-dark-blue-color {
+  color: #00008e;
+}
+
+.light-blue-color {
+  color: #2e8995;
+}
+
+.one-third-col {
+  width: 30%;
+}
+
+.width-100-percent {
+  width: 100%;
+}
+
+.width-50vw-container {
+  width: 50vw;
+}
+
+.img-fit {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-vertical-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.font-size-40px {
+  font-size: 40px;
+}
+
+.font-size-48px {
+  font-size: 48px;
+}
+
+.second-50vw-container {
+  margin-top: -80px;
+}
+
+.second-50vw-container .width-50vw-container:first-of-type {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 12%;
+}
+
+.white-box-with-icon {
+  width: 350px;
+}
+
+.white-box-with-icon .white-box-with-icon-text {
+  margin-top: -6px;
+}
+
+.page-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-buttons p {
+  margin: 0 6px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.page-buttons .currentPage {
+  background-color: #00008e;
+  background: linear-gradient(160deg, #1919b8, #20737c);
+  color: white;
+  border-radius: 50%;
+}
+
+#plans-section,
+#wide-plans-section {
+  margin-top: 200px;
+}
+
+#plans-section .plans-text,
+#wide-plans-section .plans-text {
+  margin: 0 20%;
+}
+
+#plans-section .plans-boxes,
+#wide-plans-section .plans-boxes {
+  margin-top: 110px;
+}
+
+#plans-section .plan-heading,
+#wide-plans-section .plan-heading {
+  font-size: 20px;
+}
+
+#plans-section .plan-discount,
+#wide-plans-section .plan-discount {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 16px;
+}
+
+#plans-section .plan-price span,
+#wide-plans-section .plan-price span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#plans-section .white-box-container,
+#wide-plans-section .white-box-container {
+  position: relative;
+}
+
+#plans-section .white-box-container .best-offer-box,
+#wide-plans-section .white-box-container .best-offer-box {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -40px;
+  left: 20%;
+  right: 20%;
+  padding: 8px 40px;
+  background-color: #ffcc29;
+  color: #19456b;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1400px) {
+  .content-container-70vw {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .second-50vw-container {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .font-size-40px {
+    font-size: 32px;
+  }
+  .container-of-2-50vw-containers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-of-2-50vw-containers .width-50vw-container {
+    width: 100vw;
+  }
+  .second-50vw-container {
+    margin-top: 70px;
+    position: relative;
+  }
+  .second-50vw-container .white-boxes-with-icons-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    bottom: -120px;
+  }
+  .second-50vw-container .white-boxes-with-icons-container .white-box-with-icon {
+    width: 250px;
+    height: 80px;
+  }
+  .second-50vw-container .white-boxes-with-icons-container .white-box-with-icon img {
+    height: 80px;
+  }
+  .second-50vw-container .white-boxes-with-icons-container .white-box-with-icon p {
+    font-size: 14px;
+  }
+  .second-50vw-container .white-boxes-with-icons-container .white-box-with-icon .font-size-40px {
+    font-size: 32px;
+  }
+  #plans-section .plans-text {
+    margin: 0;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#not-found-section .not-found-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(160deg, #2b2b9c, #2b8691);
+}
+
+#not-found-section .not-found-container h2 {
+  font-size: 320px;
+  color: rgba(255, 255, 255, 0.404);
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  top: 15%;
+}
+
+#not-found-section .not-found-container .not-found-content-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#not-found-section .not-found-container .not-found-content-container p {
+  font-size: 60px;
+}
+
+#not-found-section .not-found-container .not-found-content-container input {
+  width: 40vw;
+  padding: 10px 10px;
+}
+
+#not-found-section .not-found-container .not-found-content-container .very-dark-blue-box {
+  background-color: #00008e;
+  padding: 10px 15px;
+  color: white;
+}
+
+#not-found-section .not-found-container .not-found-content-container a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=NotFoundPage.css.map */
