@@ -124,6 +124,31 @@ section {
   margin-top: -6px;
 }
 
+.page-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-buttons p {
+  margin: 0 6px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.page-buttons .currentPage {
+  background-color: #00008e;
+  background: linear-gradient(160deg, #1919b8, #20737c);
+  color: white;
+  border-radius: 50%;
+}
+
 #plans-section,
 #wide-plans-section {
   margin-top: 200px;

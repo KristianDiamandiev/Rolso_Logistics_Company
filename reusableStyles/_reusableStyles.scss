@@ -110,6 +110,22 @@ section {
   }
 }
 
+.page-buttons {
+  @include flexJustifyAlign(center, center);
+  p {
+    margin: 0 6px;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+
+  .currentPage {
+    background-color: $veryDarkBlue;
+    background: linear-gradient(160deg, rgb(25, 25, 184), rgb(32, 115, 124));
+    color: white;
+    border-radius: 50%;
+  }
+}
+
 #plans-section,
 #wide-plans-section {
   margin-top: 200px;
