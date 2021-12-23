@@ -222,6 +222,13 @@ section {
   .font-size-40px {
     font-size: 32px;
   }
+  .font-size-48px {
+    font-size: 36px;
+  }
+  .white-box-container h1 {
+    font-size: 48px !important;
+    padding: 0 10px;
+  }
   .container-of-2-50vw-containers {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
