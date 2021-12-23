@@ -193,10 +193,14 @@ section {
     font-size: 36px;
   }
 
-  .white-box-container {
-    h1 {
-      font-size: 48px !important;
-      padding: 0 10px;
+  #white-box-section {
+    .white-box-container {
+      width: 100% !important;
+
+      h1 {
+        font-size: 48px !important;
+        padding: 0 10px;
+      }
     }
   }
 

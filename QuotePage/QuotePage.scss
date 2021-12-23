@@ -105,3 +105,23 @@ header {
     background: linear-gradient(160deg, rgb(43, 43, 156), rgb(43, 134, 145));
   }
 }
+
+@media screen and (max-width: 992px) {
+  #form-section {
+    .inputs-row {
+      flex-wrap: wrap;
+
+      .width-32-percent,
+      .width-23-percent {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  #two-gradient-boxes {
+    .gradient-box1 {
+      margin-right: 0px;
+    }
+  }
+}
