@@ -50,10 +50,13 @@ header {
           margin: 12px 4px;
         }
         a {
-          margin-left: 10px;
+          margin: 0;
           color: $darkBlue;
           font-size: 18px;
           font-weight: 600;
+          padding: 12px 14px;
+          display: block;
+          width: 100%;
         }
       }
     }

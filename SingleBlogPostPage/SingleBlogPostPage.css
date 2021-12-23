@@ -358,10 +358,13 @@ header .navbar .nav-links .dropdown-link-container div {
 }
 
 header .navbar .nav-links .dropdown-link-container a {
-  margin-left: 10px;
+  margin: 0;
   color: #19456b;
   font-size: 18px;
   font-weight: 600;
+  padding: 12px 14px;
+  display: block;
+  width: 100%;
 }
 
 header .navbar .telephone {
@@ -613,10 +616,10 @@ header .content-container-70vw {
 header .yellow-line {
   position: absolute;
   background-color: #ffcc29;
-  width: 120px;
+  width: 90px;
   height: 6px;
   bottom: -3px;
-  left: 270px;
+  left: 415px;
 }
 
 #white-box-section {
