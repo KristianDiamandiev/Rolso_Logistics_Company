@@ -482,6 +482,15 @@ footer {
   background: linear-gradient(160deg, #0b0ba7, #2b8691);
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #a1a1a1;
+}
+
 footer .row {
   margin-top: 80px;
 }

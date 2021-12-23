@@ -482,6 +482,15 @@ footer {
   background: linear-gradient(160deg, #0b0ba7, #2b8691);
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #a1a1a1;
+}
+
 footer .row {
   margin-top: 80px;
 }
@@ -636,6 +645,9 @@ header .yellow-line {
 .blue-column .all-services-link {
   margin-top: 40px;
   font-size: 14px;
+  text-decoration: none;
+  color: white;
+  margin: 8px;
 }
 
 #rolso-services-heading {

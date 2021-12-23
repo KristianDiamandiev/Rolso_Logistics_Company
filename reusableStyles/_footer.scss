@@ -6,6 +6,15 @@ footer {
   padding-bottom: 40px;
   background: linear-gradient(160deg, rgb(11, 11, 167), rgb(43, 134, 145));
 
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: rgb(161, 161, 161);
+    }
+  }
+
   .row {
     margin-top: 80px;
   }
