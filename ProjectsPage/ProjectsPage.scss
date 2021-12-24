@@ -80,3 +80,30 @@ header {
     grid-template-columns: 2.5fr 1.5fr 1.5fr;
   }
 }
+
+@media screen and (max-width: 992px) {
+  #projects-section {
+    .projects-section-container {
+      .projects-navbar {
+        width: 100%;
+        margin-top: 40px;
+
+        p {
+          width: auto;
+        }
+      }
+
+      .projects-grid1,
+      .projects-grid2 {
+        grid-template-columns: 1fr;
+
+        img {
+          height: 200px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+//projects-section-container

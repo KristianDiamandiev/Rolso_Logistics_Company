@@ -686,4 +686,24 @@ header .yellow-line {
   -ms-grid-columns: 2.5fr 1.5fr 1.5fr;
       grid-template-columns: 2.5fr 1.5fr 1.5fr;
 }
+
+@media screen and (max-width: 992px) {
+  #projects-section .projects-section-container .projects-navbar {
+    width: 100%;
+    margin-top: 40px;
+  }
+  #projects-section .projects-section-container .projects-navbar p {
+    width: auto;
+  }
+  #projects-section .projects-section-container .projects-grid1,
+  #projects-section .projects-section-container .projects-grid2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #projects-section .projects-section-container .projects-grid1 img,
+  #projects-section .projects-section-container .projects-grid2 img {
+    height: 200px;
+    margin-top: 30px;
+  }
+}
 /*# sourceMappingURL=ProjectsPage.css.map */
