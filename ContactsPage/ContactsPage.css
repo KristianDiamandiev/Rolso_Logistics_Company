@@ -738,4 +738,53 @@ header .yellow-line {
 #location-section #gradient-box .gradient-box1 .text-container-width-50-percent {
   width: 50%;
 }
+
+@media screen and (max-width: 992px) {
+  #location-section .google-map {
+    margin-top: 0px;
+    height: 70vh;
+  }
+  #location-section .content-container-70vw .white-boxes-with-icons-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0px;
+    margin-left: -14px;
+  }
+  #location-section .two-sections-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #location-section #appointment-form-section {
+    margin-top: 0px;
+    width: 100%;
+  }
+  #location-section #appointment-form-section .consultation-form-container {
+    height: auto;
+    padding: 20px !important;
+  }
+  #location-section #appointment-form-section .consultation-form-container .two-inputs-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #location-section #appointment-form-section .consultation-form-container .two-inputs-container .label-and-input {
+    width: 100%;
+  }
+  #location-section #appointment-form-section .consultation-form-container .two-inputs-container .label-and-input input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  #location-section #gradient-box {
+    width: 100%;
+  }
+  #location-section #gradient-box .gradient-box1 {
+    padding: 60px;
+    margin-right: 0%;
+  }
+}
 /*# sourceMappingURL=ContactsPage.css.map */
