@@ -671,4 +671,13 @@ header .yellow-line {
   background-color: transparent;
   border: 1px solid white;
 }
+
+@media screen and (max-width: 992px) {
+  #wide-plans-section .white-box-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=PricesPage.css.map */

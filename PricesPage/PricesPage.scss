@@ -70,3 +70,11 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  #wide-plans-section {
+    .white-box-container {
+      flex-direction: column;
+    }
+  }
+}
