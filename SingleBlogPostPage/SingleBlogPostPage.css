@@ -732,4 +732,43 @@ header .yellow-line {
   border: 1px solid silver;
   padding: 6px 10px;
 }
+
+@media screen and (max-width: 992px) {
+  #white-box-section {
+    margin-top: -80px;
+  }
+  #white-box-section img {
+    height: 50vh;
+  }
+  #blogpost-info-section .blogpost-info-section-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+  }
+  #blogpost-info-section .blogpost-info-section-container .content-container-70-percent {
+    width: 100%;
+  }
+  #blogpost-info-section .blogpost-info-section-container #leave-comment-section {
+    width: 100%;
+  }
+  #blogpost-info-section .blogpost-info-section-container #leave-comment-section .consultation-form-container {
+    width: 100%;
+    padding: 20px;
+  }
+  #blogpost-info-section .blogpost-info-section-container #leave-comment-section .consultation-form-container .two-inputs-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #blogpost-info-section .blogpost-info-section-container #leave-comment-section .consultation-form-container .two-inputs-container .label-and-input {
+    width: 100%;
+  }
+  #blogpost-info-section .blogpost-info-section-container .width-25-percent {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
 /*# sourceMappingURL=SingleBlogPostPage.css.map */
