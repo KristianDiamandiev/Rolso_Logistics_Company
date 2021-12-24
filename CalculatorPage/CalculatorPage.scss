@@ -102,3 +102,30 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  #form-section {
+    form {
+      .inputs-row {
+        flex-direction: column;
+
+        .width-32-percent,
+        .width-23-percent {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  #gradient-box {
+    .gradient-box1 {
+      padding: 40px;
+      margin: auto;
+
+      .text-container-width-50-percent {
+        width: 80%;
+      }
+    }
+  }
+}

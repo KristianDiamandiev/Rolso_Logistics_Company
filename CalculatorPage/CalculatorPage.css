@@ -695,4 +695,25 @@ header .yellow-line {
 #gradient-box .gradient-box1 .text-container-width-50-percent {
   width: 50%;
 }
+
+@media screen and (max-width: 992px) {
+  #form-section form .inputs-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #form-section form .inputs-row .width-32-percent,
+  #form-section form .inputs-row .width-23-percent {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #gradient-box .gradient-box1 {
+    padding: 40px;
+    margin: auto;
+  }
+  #gradient-box .gradient-box1 .text-container-width-50-percent {
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=CalculatorPage.css.map */
