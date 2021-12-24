@@ -486,6 +486,12 @@ header .heading-info .info-text {
   }
 }
 
+@media screen and (max-width: 992px) {
+  header {
+    padding-bottom: 140px !important;
+  }
+}
+
 footer {
   margin-top: 60px;
   padding-top: 25px;
