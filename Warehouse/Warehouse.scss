@@ -127,3 +127,29 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  #warehouse-info-section {
+    .warehouse-info-section-container {
+      flex-direction: column;
+
+      .content-container-70-percent {
+        width: 100% !important;
+      }
+
+      .width-25-percent {
+        width: 90% !important;
+        margin: auto;
+        margin-top: 40px;
+      }
+    }
+  }
+
+  #grid-section {
+    margin-top: 0;
+
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
