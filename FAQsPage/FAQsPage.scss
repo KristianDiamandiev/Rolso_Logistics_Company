@@ -43,7 +43,7 @@ header {
   }
 }
 
-#faqs-sections {
+#faqs-section {
   .width-55-percent {
     width: 55%;
 
@@ -83,6 +83,41 @@ header {
 
     .text-container-width-50-percent {
       width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #faqs-section {
+    .faqs-section-container {
+      flex-direction: column;
+
+      .width-55-percent {
+        width: 100% !important;
+
+        .droppable-box {
+          margin-top: 24px;
+        }
+      }
+
+      .width-45-percent {
+        width: 100%;
+        margin: auto !important;
+
+        .white-box-container {
+          padding-left: 10px !important;
+        }
+      }
+    }
+  }
+
+  #gradient-box {
+    .gradient-box1 {
+      padding: 40px;
+
+      .text-container-width-50-percent {
+        width: 80%;
+      }
     }
   }
 }

@@ -638,28 +638,28 @@ header .yellow-line {
   font-size: 64px;
 }
 
-#faqs-sections .width-55-percent {
+#faqs-section .width-55-percent {
   width: 55%;
 }
 
-#faqs-sections .width-55-percent .droppable-box {
+#faqs-section .width-55-percent .droppable-box {
   margin: 14px 0;
 }
 
-#faqs-sections .width-55-percent .droppable-box .droppable-box-heading {
+#faqs-section .width-55-percent .droppable-box .droppable-box-heading {
   font-size: 20px;
 }
 
-#faqs-sections .width-55-percent .droppable-box img {
+#faqs-section .width-55-percent .droppable-box img {
   width: 40px;
   height: 40px;
 }
 
-#faqs-sections .width-55-percent .togglable-box {
+#faqs-section .width-55-percent .togglable-box {
   display: none;
 }
 
-#faqs-sections .width-45-percent {
+#faqs-section .width-45-percent {
   width: 45%;
 }
 
@@ -675,5 +675,33 @@ header .yellow-line {
 
 #gradient-box .gradient-box1 .text-container-width-50-percent {
   width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  #faqs-section .faqs-section-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #faqs-section .faqs-section-container .width-55-percent {
+    width: 100% !important;
+  }
+  #faqs-section .faqs-section-container .width-55-percent .droppable-box {
+    margin-top: 24px;
+  }
+  #faqs-section .faqs-section-container .width-45-percent {
+    width: 100%;
+    margin: auto !important;
+  }
+  #faqs-section .faqs-section-container .width-45-percent .white-box-container {
+    padding-left: 10px !important;
+  }
+  #gradient-box .gradient-box1 {
+    padding: 40px;
+  }
+  #gradient-box .gradient-box1 .text-container-width-50-percent {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=FAQsPage.css.map */
