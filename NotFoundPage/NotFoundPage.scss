@@ -46,3 +46,27 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  #not-found-section {
+    .not-found-container {
+      h2 {
+        font-size: 120px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 18%;
+      }
+
+      .not-found-content-container {
+        p {
+          font-size: 40px;
+        }
+
+        input {
+          width: 70vw;
+          padding: 10px 10px;
+        }
+      }
+    }
+  }
+}

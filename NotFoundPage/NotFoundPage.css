@@ -325,4 +325,21 @@ body {
 #not-found-section .not-found-container .not-found-content-container a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 992px) {
+  #not-found-section .not-found-container h2 {
+    font-size: 120px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    top: 18%;
+  }
+  #not-found-section .not-found-container .not-found-content-container p {
+    font-size: 40px;
+  }
+  #not-found-section .not-found-container .not-found-content-container input {
+    width: 70vw;
+    padding: 10px 10px;
+  }
+}
 /*# sourceMappingURL=NotFoundPage.css.map */
