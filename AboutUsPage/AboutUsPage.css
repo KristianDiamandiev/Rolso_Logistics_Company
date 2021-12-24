@@ -780,6 +780,9 @@ header .yellow-line {
   #circles-features-section .circles-features-section-container .width-30-percent {
     width: 100%;
   }
+  #location-section {
+    margin-top: 80px;
+  }
   #location-section .white-boxes-with-icons-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
