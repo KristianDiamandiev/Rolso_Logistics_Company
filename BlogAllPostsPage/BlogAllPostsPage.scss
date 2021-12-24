@@ -97,6 +97,22 @@ header {
 
       .content-container-70-percent {
         width: 100%;
+
+        .post {
+          margin-top: 80px !important;
+          .post-detail-row {
+            flex-direction: column;
+
+            div {
+              margin: auto !important;
+              margin-bottom: 10px !important;
+            }
+          }
+
+          h2 {
+            margin-top: 0px !important;
+          }
+        }
       }
 
       .width-25-percent {

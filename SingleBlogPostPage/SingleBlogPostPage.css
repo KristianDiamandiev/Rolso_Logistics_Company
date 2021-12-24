@@ -750,6 +750,16 @@ header .yellow-line {
   #blogpost-info-section .blogpost-info-section-container .content-container-70-percent {
     width: 100%;
   }
+  #blogpost-info-section .blogpost-info-section-container .content-container-70-percent .post-detail-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #blogpost-info-section .blogpost-info-section-container .content-container-70-percent .post-detail-row div {
+    margin: auto !important;
+    margin-bottom: 10px !important;
+  }
   #blogpost-info-section .blogpost-info-section-container #leave-comment-section {
     width: 100%;
   }
