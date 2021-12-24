@@ -680,4 +680,14 @@ header .yellow-line {
   left: 0;
   z-index: 2;
 }
+
+@media screen and (max-width: 992px) {
+  #grid-section {
+    margin-top: 0px;
+  }
+  #grid-section .grid-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
 /*# sourceMappingURL=ServicesPage.css.map */
