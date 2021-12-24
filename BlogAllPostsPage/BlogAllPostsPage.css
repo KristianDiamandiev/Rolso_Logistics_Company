@@ -691,4 +691,20 @@ header .yellow-line {
 #blog-posts-section .width-25-percent .small-text {
   font-size: 14px;
 }
+
+@media screen and (max-width: 992px) {
+  #blog-posts-section .blog-posts-section-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #blog-posts-section .blog-posts-section-container .content-container-70-percent {
+    width: 100%;
+  }
+  #blog-posts-section .blog-posts-section-container .width-25-percent {
+    margin-top: 60px;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=BlogAllPostsPage.css.map */

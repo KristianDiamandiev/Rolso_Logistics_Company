@@ -89,3 +89,20 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  #blog-posts-section {
+    .blog-posts-section-container {
+      flex-direction: column;
+
+      .content-container-70-percent {
+        width: 100%;
+      }
+
+      .width-25-percent {
+        margin-top: 60px;
+        width: 100%;
+      }
+    }
+  }
+}
