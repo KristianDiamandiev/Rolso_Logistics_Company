@@ -170,6 +170,27 @@ header {
 }
 
 @media screen and (max-width: 992px) {
+  header {
+    .heading-info {
+      margin-top: 60px !important;
+      width: 100%;
+    }
+
+    .background-text {
+      display: none;
+    }
+  }
+
+  #white-box-services {
+    .blue-column {
+      margin-top: 20px;
+    }
+  }
+
+  #rolso-services-heading {
+    margin-top: 70px;
+  }
+
   .four-photos {
     flex-direction: column;
   }
@@ -216,5 +237,15 @@ header {
         width: 94%;
       }
     }
+  }
+
+  #plans-section {
+    .plans-boxes {
+      margin-top: 40px;
+    }
+  }
+
+  footer {
+    margin-top: 0;
   }
 }

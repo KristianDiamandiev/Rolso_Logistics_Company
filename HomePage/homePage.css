@@ -780,6 +780,19 @@ header .yellow-line {
 }
 
 @media screen and (max-width: 992px) {
+  header .heading-info {
+    margin-top: 60px !important;
+    width: 100%;
+  }
+  header .background-text {
+    display: none;
+  }
+  #white-box-services .blue-column {
+    margin-top: 20px;
+  }
+  #rolso-services-heading {
+    margin-top: 70px;
+  }
   .four-photos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -826,6 +839,12 @@ header .yellow-line {
   #three-images-25-40-25vw .container-40vw .blue-column {
     margin-left: 3%;
     width: 94%;
+  }
+  #plans-section .plans-boxes {
+    margin-top: 40px;
+  }
+  footer {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=homePage.css.map */
