@@ -2,7 +2,7 @@ $(document).ready(function () {
   // init controller
   var controller = new ScrollMagic.Controller();
 
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 5; i++) {
     new ScrollMagic.Scene({
       triggerElement: `#fadein-elem${i}`,
       triggerHook: 0.9, // show, when scrolled 10% into view
@@ -14,17 +14,7 @@ $(document).ready(function () {
       .addTo(controller);
   }
 
-  new ScrollMagic.Scene({
-    triggerElement: `#white-box-section`,
-    triggerHook: 0.9, // show, when scrolled 10% into view
-    offset: 50, // move trigger to center of element
-  })
-    .setClassToggle(`#white-box-section`, "fadein-animation")
-    .reverse(false) // add class to reveal
-    //.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 2; i++) {
     new ScrollMagic.Scene({
       triggerElement: `#slide-right-elem${i}`,
       triggerHook: 0.9, // show, when scrolled 10% into view
