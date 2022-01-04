@@ -15,6 +15,8 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="../reusableScripts/header.js"></script>
     <script src="./homePageScript.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +30,7 @@
   </head>
   <body>
     <header>
-      <div class="content-container-70vw">
+      <div id="fadein-elem1" class="content-container-70vw fadein-elem">
         <p class="background-text">Unbeliavable</p>
         <div class="logo-and-buttons">
           <div class="logo">
@@ -167,7 +169,7 @@
     </header>
 
     <section id="white-box-section">
-      <div class="content-container-70vw mb-5">
+      <div id="fadein-elem2" class="content-container-70vw mb-5 fadein-elem">
         <div id="white-box-services" class="white-box-container">
           <div class="row">
             <div class="col-md-6 col-xl-4 d-flex flex-column">
@@ -289,7 +291,10 @@
     </section>
 
     <section>
-      <div class="content-container-70vw mb-5">
+      <div
+        id="slide-right-elem1"
+        class="content-container-70vw mb-5 slide-right-elem"
+      >
         <h1
           id="rolso-services-heading"
           class="dark-blue-color fw-bold text-center"
@@ -326,113 +331,103 @@
     </section>
 
     <section>
-      <div class="d-flex mt-5 pt-5 container-of-2-50vw-containers">
-        <div class="width-50vw-container mt-4">
-          <img class="img-fit" src="../images/ship2.png" alt="" />
-        </div>
-        <div class="width-50vw-container container-vertical-center">
-          <div class="ms-5 me-5">
-            <h2 class="dark-blue-color fw-bold font-size-40px mt-4 mt-lg-0">
-              Excelent company<br />quality services
-            </h2>
-            <p class="mt-4 mb-4 me-5 pe-5">
-              Donec lacinia purus et nisl dignissim, vel egestas nunc iaculis.
-              Maecenas elementum elementum ipsum, sit amet lacinia lectus
-              vulputate nec.
-            </p>
-            <button class="blue-button mt-4">
-              Consultation
-              <button class="blue-button-arrow">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14"
-                  height="14"
-                  fill="currentColor"
-                  class="bi bi-caret-right-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
-                  />
-                </svg>
+      <div id="fadein-elem3" class="fadein-elem">
+        <div class="d-flex mt-5 pt-5 container-of-2-50vw-containers">
+          <div class="width-50vw-container mt-4">
+            <img class="img-fit" src="../images/ship2.png" alt="" />
+          </div>
+          <div class="width-50vw-container container-vertical-center">
+            <div class="ms-5 me-5">
+              <h2 class="dark-blue-color fw-bold font-size-40px mt-4 mt-lg-0">
+                Excelent company<br />quality services
+              </h2>
+              <p class="mt-4 mb-4 me-5 pe-5">
+                Donec lacinia purus et nisl dignissim, vel egestas nunc iaculis.
+                Maecenas elementum elementum ipsum, sit amet lacinia lectus
+                vulputate nec.
+              </p>
+              <button class="blue-button mt-4">
+                Consultation
+                <button class="blue-button-arrow">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    fill="currentColor"
+                    class="bi bi-caret-right-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                    />
+                  </svg>
+                </button>
               </button>
-            </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="d-flex container-of-2-50vw-containers second-50vw-container">
-        <div class="width-50vw-container container-vertical-center">
-          <div class="ms-5 me-5">
-            <h2 class="dark-blue-color fw-bold font-size-40px">
-              <span class="very-dark-blue-color">Rolso</span>
-              transportation<br />company
-            </h2>
-            <p class="mt-4 mb-4">
-              Sed pulvinar ligula sapien, eget tincidunt mauris sollicitudin
-              sed. Vivamus vel nisl diam.
-            </p>
-            <div
-              class="
-                d-flex
-                white-boxes-with-icons-container
-                position-absolute
-                mt-3
-              "
-            >
-              <div class="white-box-container white-box-with-icon p-0 me-3">
-                <img
-                  src="../images/packageIcon.png"
-                  height="100px"
-                  alt="packageIcon"
-                />
-                <div class="mt-1">
-                  <p class="very-dark-blue-color fw-bold font-size-40px ms-3">
-                    1255+
-                  </p>
-                  <p class="ms-3 white-box-with-icon-text">
-                    Delivered packages
-                  </p>
-                </div>
-              </div>
+        <div
+          class="d-flex container-of-2-50vw-containers second-50vw-container"
+        >
+          <div class="width-50vw-container container-vertical-center">
+            <div class="ms-5 me-5">
+              <h2 class="dark-blue-color fw-bold font-size-40px">
+                <span class="very-dark-blue-color">Rolso</span>
+                transportation<br />company
+              </h2>
+              <p class="mt-4 mb-4">
+                Sed pulvinar ligula sapien, eget tincidunt mauris sollicitudin
+                sed. Vivamus vel nisl diam.
+              </p>
               <div
-                class="
-                  white-box-container white-box-with-icon
-                  p-0
-                  mt-3 mt-lg-0
-                  ms-lg-4
-                "
+                class="d-flex white-boxes-with-icons-container position-absolute mt-3"
               >
-                <img
-                  src="../images/mapIcon.png"
-                  height="100px"
-                  alt="packageIcon"
-                />
-                <div class="mt-1">
-                  <p class="light-blue-color fw-bold font-size-40px ms-3">
-                    50+
-                  </p>
-                  <p class="ms-3 white-box-with-icon-text">
-                    Years of experience
-                  </p>
+                <div class="white-box-container white-box-with-icon p-0 me-3">
+                  <img
+                    src="../images/packageIcon.png"
+                    height="100px"
+                    alt="packageIcon"
+                  />
+                  <div class="mt-1">
+                    <p class="very-dark-blue-color fw-bold font-size-40px ms-3">
+                      1255+
+                    </p>
+                    <p class="ms-3 white-box-with-icon-text">
+                      Delivered packages
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="white-box-container white-box-with-icon p-0 mt-3 mt-lg-0 ms-lg-4"
+                >
+                  <img
+                    src="../images/mapIcon.png"
+                    height="100px"
+                    alt="packageIcon"
+                  />
+                  <div class="mt-1">
+                    <p class="light-blue-color fw-bold font-size-40px ms-3">
+                      50+
+                    </p>
+                    <p class="ms-3 white-box-with-icon-text">
+                      Years of experience
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="width-50vw-container">
-          <img class="img-fit" src="../images/ship3.png" alt="" />
+          <div class="width-50vw-container">
+            <img class="img-fit" src="../images/ship3.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
     <section id="consultation-form-section">
       <div
-        class="
-          content-container-70vw
-          consultation-form-section-container
-          d-flex
-          mb-5
-        "
+        id="slide-right-elem2"
+        class="content-container-70vw consultation-form-section-container d-flex mb-5 slide-right-elem"
       >
         <div class="consultation-text-container">
           <p class="dark-blue-color fw-bold font-size-40px">
@@ -444,14 +439,7 @@
           </p>
           <p class="dark-blue-color fw-bold">Call us for consultation</p>
           <p
-            class="
-              very-dark-blue-color
-              fw-bold
-              font-size-40px
-              mt-2
-              mb-3 mb-lg-0
-              mt-lg-1
-            "
+            class="very-dark-blue-color fw-bold font-size-40px mt-2 mb-3 mb-lg-0 mt-lg-1"
           >
             +8 (495) 989 20 11
           </p>
@@ -479,12 +467,7 @@
               </div>
             </div>
             <div
-              class="
-                d-flex
-                justify-content-between
-                two-inputs-container
-                mt-0 mt-lg-4
-              "
+              class="d-flex justify-content-between two-inputs-container mt-0 mt-lg-4"
             >
               <div class="label-and-input">
                 <label for="email">Email</label><br />
@@ -524,7 +507,7 @@
     </section>
 
     <section id="three-images-25-40-25vw" class="pt-5 mb-5">
-      <div class="d-flex">
+      <div id="fadein-elem4" class="d-flex fadein-elem">
         <div class="container-25vw">
           <img class="img-fit" src="../images/ship4.png" alt="" />
         </div>
@@ -568,7 +551,10 @@
     </section>
 
     <section id="plans-section">
-      <div class="content-container-70vw mb-5 pt-3">
+      <div
+        id="fadein-elem5"
+        class="content-container-70vw mb-5 pt-3 fadein-elem"
+      >
         <h2 class="dark-blue-color fw-bold font-size-40px text-center">
           The right price for you,<br />whoever you are
         </h2>
@@ -601,13 +587,7 @@
           <div class="col-md-6 col-xl-4 mb-4 mb-lg-0">
             <div class="ms-3 me-3 white-box-container flex-column">
               <div
-                class="
-                  d-flex
-                  width-100-percent
-                  justify-content-between
-                  border-bottom
-                  pb-4
-                "
+                class="d-flex width-100-percent justify-content-between border-bottom pb-4"
               >
                 <p class="dark-blue-color fw-bold plan-heading">Basic</p>
                 <p class="light-blue-color fw-bold plan-discount">Save 10%</p>
@@ -670,13 +650,7 @@
             <div class="ms-3 me-3 white-box-container flex-column">
               <div class="best-offer-box">Best Offer</div>
               <div
-                class="
-                  d-flex
-                  width-100-percent
-                  justify-content-between
-                  border-bottom
-                  pb-4
-                "
+                class="d-flex width-100-percent justify-content-between border-bottom pb-4"
               >
                 <p class="dark-blue-color fw-bold plan-heading">Full Pack</p>
                 <p class="very-dark-blue-color fw-bold plan-discount">
@@ -742,13 +716,7 @@
           <div class="col-md-6 col-xl-4 mt-5 mt-xl-0">
             <div class="ms-3 me-3 white-box-container flex-column">
               <div
-                class="
-                  d-flex
-                  width-100-percent
-                  justify-content-between
-                  border-bottom
-                  pb-4
-                "
+                class="d-flex width-100-percent justify-content-between border-bottom pb-4"
               >
                 <p class="dark-blue-color fw-bold plan-heading">Advanced</p>
                 <p class="light-blue-color fw-bold plan-discount">Save 15%</p>
