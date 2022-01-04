@@ -705,6 +705,7 @@ header .yellow-line {
 }
 
 #blogpost-info-section #leave-comment-section {
+  width: 100%;
   margin-top: 60px;
 }
 
@@ -731,7 +732,7 @@ header .yellow-line {
 }
 
 #blogpost-info-section #leave-comment-section .consultation-form-container {
-  width: 55%;
+  width: 100%;
 }
 
 #blogpost-info-section #leave-comment-section .consultation-form-container form {
