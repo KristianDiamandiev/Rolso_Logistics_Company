@@ -15,6 +15,8 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="../reusableScripts/header.js"></script>
     <script src="./ServicesPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +30,7 @@
   </head>
   <body>
     <header>
-      <div class="content-container-70vw">
+      <div id="fadein-elem1" class="content-container-70vw fadein-elem">
         <div class="logo-and-buttons">
           <div class="logo">
             <img src="../images/Logo.png" width="50px" alt="" />
@@ -136,7 +138,7 @@
     </header>
 
     <section id="white-box-section">
-      <div class="content-container-70vw mb-5">
+      <div id="fadein-elem2" class="content-container-70vw mb-5 fadein-elem">
         <div class="white-box-container d-block">
           <h1 class="dark-blue-color fw-bold text-center">Services</h1>
           <p class="text-center mt-3">Home / Services</p>
@@ -145,7 +147,10 @@
     </section>
 
     <section id="grid-section">
-      <div class="content-container-70vw mb-5">
+      <div
+        id="slide-right-elem1"
+        class="content-container-70vw mb-5 slide-right-elem"
+      >
         <div class="grid-container">
           <a
             href="../SingleServicePage/SingleServicePage.html"
