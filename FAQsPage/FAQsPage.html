@@ -15,6 +15,8 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="../reusableScripts/header.js"></script>
     <script src="./FAQsPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +30,7 @@
   </head>
   <body>
     <header>
-      <div class="content-container-70vw">
+      <div id="fadein-elem1" class="content-container-70vw fadein-elem">
         <div class="logo-and-buttons">
           <div class="logo">
             <img src="../images/Logo.png" width="50px" alt="" />
@@ -136,7 +138,7 @@
     </header>
 
     <section id="white-box-section">
-      <div class="content-container-70vw mb-5">
+      <div id="fadein-elem2" class="content-container-70vw mb-5 fadein-elem">
         <div class="white-box-container d-block">
           <h1 class="dark-blue-color fw-bold text-center">FAQs</h1>
           <p class="text-center mt-3">Home / About / FAQs</p>
@@ -145,16 +147,14 @@
     </section>
 
     <section id="faqs-section">
-      <div class="content-container-70vw mb-5 d-flex faqs-section-container">
+      <div
+        id="fadein-elem3"
+        class="content-container-70vw mb-5 d-flex faqs-section-container fadein-elem"
+      >
         <div class="width-55-percent">
           <div class="droppable-box">
             <div
-              class="
-                d-flex
-                clickable-box
-                justify-content-between
-                align-items-center
-              "
+              class="d-flex clickable-box justify-content-between align-items-center"
             >
               <p class="droppable-box-heading fw-bold dark-blue-color">
                 The right price for you, whoever you are
@@ -172,12 +172,7 @@
           </div>
           <div class="droppable-box">
             <div
-              class="
-                d-flex
-                clickable-box
-                justify-content-between
-                align-items-center
-              "
+              class="d-flex clickable-box justify-content-between align-items-center"
             >
               <p class="droppable-box-heading fw-bold dark-blue-color">
                 Transporterium is the biggest transportation company
@@ -195,12 +190,7 @@
           </div>
           <div class="droppable-box">
             <div
-              class="
-                d-flex
-                clickable-box
-                justify-content-between
-                align-items-center
-              "
+              class="d-flex clickable-box justify-content-between align-items-center"
             >
               <p class="droppable-box-heading fw-bold dark-blue-color">
                 Powerfull Features of Transporterium
@@ -218,12 +208,7 @@
           </div>
           <div class="droppable-box">
             <div
-              class="
-                d-flex
-                clickable-box
-                justify-content-between
-                align-items-center
-              "
+              class="d-flex clickable-box justify-content-between align-items-center"
             >
               <p class="droppable-box-heading fw-bold dark-blue-color">
                 Awesome app which works for you
@@ -241,13 +226,7 @@
           </div>
         </div>
         <div
-          class="
-            d-flex
-            flex-column
-            white-boxes-with-icons-container
-            width-45-percent
-            align-items-end
-          "
+          class="d-flex flex-column white-boxes-with-icons-container width-45-percent align-items-end"
         >
           <div class="white-box-container white-box-with-icon p-0 mt-3 mt-lg-0">
             <img
@@ -258,26 +237,12 @@
             <div class="mt-1">
               <p class="ms-3 mt-2">Phone</p>
               <p
-                class="
-                  phones-text
-                  ms-3
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="phones-text ms-3 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 +8 (495) 989 20 11
               </p>
               <p
-                class="
-                  ms-3
-                  mt-1
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="ms-3 mt-1 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 +8 (495) 969 60 12
               </p>
@@ -292,13 +257,7 @@
             <div class="mt-1">
               <p class="ms-3 mt-2">Address</p>
               <p
-                class="
-                  ms-3
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="ms-3 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 4621 Hill Croft Farm Road
               </p>
@@ -313,26 +272,12 @@
             <div class="mt-1">
               <p class="ms-3 mt-2">Emails</p>
               <p
-                class="
-                  phones-text
-                  ms-3
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="phones-text ms-3 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 rolso@site.com
               </p>
               <p
-                class="
-                  ms-3
-                  mt-1
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="ms-3 mt-1 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 rolso@support.com
               </p>
@@ -343,7 +288,10 @@
     </section>
 
     <section id="gradient-box">
-      <div class="content-container-70vw">
+      <div
+        id="slide-right-elem1"
+        class="content-container-70vw slide-right-elem"
+      >
         <div class="text-white gradient-box1">
           <h3 class="fw-bold">Quality services</h3>
           <p class="text-container-width-50-percent mt-3 mb-3">
