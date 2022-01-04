@@ -15,6 +15,8 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="../reusableScripts/header.js"></script>
     <script src="./SingleServicePage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +30,7 @@
   </head>
   <body>
     <header>
-      <div class="content-container-70vw">
+      <div id="fadein-elem1" class="content-container-70vw fadein-elem">
         <div class="logo-and-buttons">
           <div class="logo">
             <img src="../images/Logo.png" width="50px" alt="" />
@@ -136,7 +138,7 @@
     </header>
 
     <section id="white-box-section">
-      <div class="content-container-70vw mb-5">
+      <div id="fadein-elem2" class="content-container-70vw mb-5 fadein-elem">
         <div class="white-box-container d-block">
           <h1 class="dark-blue-color fw-bold text-center">Shipping Freight</h1>
           <p class="text-center mt-3">Home / Services / Shipping Freight</p>
@@ -146,7 +148,8 @@
 
     <section id="single-service-section">
       <div
-        class="content-container-70vw d-flex single-service-section-container"
+        id="fadein-elem3"
+        class="content-container-70vw d-flex single-service-section-container fadein-elem"
       >
         <div class="content-container-70-percent">
           <img
@@ -384,7 +387,10 @@
     </section>
 
     <section id="plans-section">
-      <div class="content-container-70vw mb-5 pt-3">
+      <div
+        id="fadein-elem4"
+        class="content-container-70vw mb-5 pt-3 fadein-elem"
+      >
         <h2 class="dark-blue-color fw-bold font-size-40px text-center">
           The right price for you,<br />whoever you are
         </h2>
@@ -417,13 +423,7 @@
           <div class="col-md-6 col-xl-4 mb-4 mb-lg-0">
             <div class="ms-3 me-3 white-box-container flex-column">
               <div
-                class="
-                  d-flex
-                  width-100-percent
-                  justify-content-between
-                  border-bottom
-                  pb-4
-                "
+                class="d-flex width-100-percent justify-content-between border-bottom pb-4"
               >
                 <p class="dark-blue-color fw-bold plan-heading">Basic</p>
                 <p class="light-blue-color fw-bold plan-discount">Save 10%</p>
@@ -486,13 +486,7 @@
             <div class="ms-3 me-3 white-box-container flex-column">
               <div class="best-offer-box">Best Offer</div>
               <div
-                class="
-                  d-flex
-                  width-100-percent
-                  justify-content-between
-                  border-bottom
-                  pb-4
-                "
+                class="d-flex width-100-percent justify-content-between border-bottom pb-4"
               >
                 <p class="dark-blue-color fw-bold plan-heading">Full Pack</p>
                 <p class="very-dark-blue-color fw-bold plan-discount">
@@ -558,13 +552,7 @@
           <div class="col-md-6 col-xl-4 mt-5 mt-xl-0">
             <div class="ms-3 me-3 white-box-container flex-column">
               <div
-                class="
-                  d-flex
-                  width-100-percent
-                  justify-content-between
-                  border-bottom
-                  pb-4
-                "
+                class="d-flex width-100-percent justify-content-between border-bottom pb-4"
               >
                 <p class="dark-blue-color fw-bold plan-heading">Advanced</p>
                 <p class="light-blue-color fw-bold plan-discount">Save 15%</p>
