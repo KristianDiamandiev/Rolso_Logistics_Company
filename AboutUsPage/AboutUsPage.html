@@ -15,6 +15,8 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="../reusableScripts/header.js"></script>
     <script src="./AboutUsPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +30,7 @@
   </head>
   <body>
     <header>
-      <div class="content-container-70vw">
+      <div id="fadein-elem1" class="content-container-70vw fadein-elem">
         <div class="logo-and-buttons">
           <div class="logo">
             <img src="../images/Logo.png" width="50px" alt="" />
@@ -138,7 +140,7 @@
     </header>
 
     <section id="white-box-section">
-      <div class="content-container-70vw mb-5">
+      <div id="fadein-elem2" class="content-container-70vw mb-5 fadein-elem">
         <div class="white-box-container d-block">
           <h1 class="dark-blue-color fw-bold text-center">About Us</h1>
           <p class="text-center mt-3">Home / About</p>
@@ -147,7 +149,10 @@
     </section>
 
     <section id="three-columns-unarranged">
-      <div class="content-container-70vw mb-5">
+      <div
+        id="slide-right-elem1"
+        class="content-container-70vw mb-5 slide-right-elem"
+      >
         <h1 class="dark-blue-color fw-bold text-center font-size-48px">
           Steps of <br />cooperation
         </h1>
@@ -160,36 +165,18 @@
             <div class="col-md-6 col-xl-4">
               <div class="d-flex justify-content-center">
                 <div
-                  class="
-                    circle-icon-container
-                    white-box-container
-                    d-flex
-                    justify-content-center
-                  "
+                  class="circle-icon-container white-box-container d-flex justify-content-center"
                 >
                   <img src="../images/calendarIcon.png" alt="calendar" />
                   <div
-                    class="
-                      small-number
-                      d-flex
-                      justify-content-center
-                      align-items-center
-                      text-white
-                      fw-bold
-                    "
+                    class="small-number d-flex justify-content-center align-items-center text-white fw-bold"
                   >
                     01
                   </div>
                 </div>
               </div>
               <p
-                class="
-                  dark-blue-color
-                  fw-bold
-                  text-center
-                  heading-under-col
-                  mt-4
-                "
+                class="dark-blue-color fw-bold text-center heading-under-col mt-4"
               >
                 Thinking strategy
               </p>
@@ -201,37 +188,18 @@
             <div class="col-md-6 col-xl-4 mt-4">
               <div class="d-flex justify-content-center">
                 <div
-                  class="
-                    circle-icon-container
-                    white-box-container
-                    d-flex
-                    justify-content-center
-                  "
+                  class="circle-icon-container white-box-container d-flex justify-content-center"
                 >
                   <img src="../images/clockIcon.png" alt="calendar" />
                   <div
-                    class="
-                      small-number
-                      second-small-number
-                      d-flex
-                      justify-content-center
-                      align-items-center
-                      text-white
-                      fw-bold
-                    "
+                    class="small-number second-small-number d-flex justify-content-center align-items-center text-white fw-bold"
                   >
                     02
                   </div>
                 </div>
               </div>
               <p
-                class="
-                  dark-blue-color
-                  fw-bold
-                  text-center
-                  heading-under-col
-                  mt-4
-                "
+                class="dark-blue-color fw-bold text-center heading-under-col mt-4"
               >
                 Thinking strategy
               </p>
@@ -243,36 +211,18 @@
             <div class="col-md-6 col-xl-4 mt-4 mt-lg-0">
               <div class="d-flex justify-content-center">
                 <div
-                  class="
-                    circle-icon-container
-                    white-box-container
-                    d-flex
-                    justify-content-center
-                  "
+                  class="circle-icon-container white-box-container d-flex justify-content-center"
                 >
                   <img src="../images/locationIcon.png" alt="calendar" />
                   <div
-                    class="
-                      small-number
-                      d-flex
-                      justify-content-center
-                      align-items-center
-                      text-white
-                      fw-bold
-                    "
+                    class="small-number d-flex justify-content-center align-items-center text-white fw-bold"
                   >
                     03
                   </div>
                 </div>
               </div>
               <p
-                class="
-                  dark-blue-color
-                  fw-bold
-                  text-center
-                  heading-under-col
-                  mt-4
-                "
+                class="dark-blue-color fw-bold text-center heading-under-col mt-4"
               >
                 Thinking strategy
               </p>
@@ -288,14 +238,8 @@
 
     <section id="features-of-transporterium">
       <div
-        class="
-          content-container-70vw
-          mb-5
-          d-flex
-          justify-content-between
-          align-items-center
-          features-of-transporterium-container
-        "
+        id="fadein-elem3"
+        class="content-container-70vw mb-5 d-flex justify-content-between align-items-center features-of-transporterium-container fadein-elem"
       >
         <div class="width-60-percent">
           <h1 class="dark-blue-color fw-bold font-size-48px">
@@ -390,133 +334,108 @@
     </section>
 
     <section id="two-50vw-containers-section">
-      <div class="d-flex mt-5 pt-5 container-of-2-50vw-containers">
-        <div class="width-50vw-container mt-4">
-          <img class="img-fit" src="../images/ship2.png" alt="" />
-        </div>
-        <div class="width-50vw-container container-vertical-center">
-          <div class="ms-5 me-5">
-            <h2 class="dark-blue-color fw-bold font-size-40px">
-              <span class="very-dark-blue-color">Rolso</span>
-              transportation<br />company
-            </h2>
-            <p class="mt-4 mb-4 me-5">
-              Sed pulvinar ligula sapien, eget tincidunt mauris sollicitudin
-              sed. Vivamus vel nisl diam.
-            </p>
-            <div
-              class="
-                d-flex
-                white-boxes-with-icons-container
-                position-absolute
-                mt-3
-              "
-            >
-              <div class="white-box-container white-box-with-icon p-0 me-3">
-                <img
-                  src="../images/locationIcon2.png"
-                  height="100px"
-                  alt="packageIcon"
-                />
-                <div class="mt-1">
-                  <p class="ms-3 mt-2">Address</p>
-                  <p
-                    class="
-                      ms-3
-                      white-box-with-icon-text
-                      fw-bold
-                      very-dark-blue-color
-                      mt-1
-                    "
-                  >
-                    4621 Hill Croft Farm Road
-                  </p>
-                </div>
-              </div>
+      <div id="fadein-elem4" class="fadein-elem">
+        <div class="d-flex mt-5 pt-5 container-of-2-50vw-containers">
+          <div class="width-50vw-container mt-4">
+            <img class="img-fit" src="../images/ship2.png" alt="" />
+          </div>
+          <div class="width-50vw-container container-vertical-center">
+            <div class="ms-5 me-5">
+              <h2 class="dark-blue-color fw-bold font-size-40px">
+                <span class="very-dark-blue-color">Rolso</span>
+                transportation<br />company
+              </h2>
+              <p class="mt-4 mb-4 me-5">
+                Sed pulvinar ligula sapien, eget tincidunt mauris sollicitudin
+                sed. Vivamus vel nisl diam.
+              </p>
               <div
-                class="
-                  white-box-container white-box-with-icon
-                  p-0
-                  mt-3 mt-xxl-0
-                  ms-xxl-4
-                "
+                class="d-flex white-boxes-with-icons-container position-absolute mt-3"
               >
-                <img
-                  src="../images/phoneIcon.png"
-                  height="100px"
-                  alt="packageIcon"
-                />
-                <div class="mt-1">
-                  <p class="ms-3 mt-2">Phone</p>
-                  <p
-                    class="
-                      phones-text
-                      ms-3
-                      white-box-with-icon-text
-                      fw-bold
-                      light-blue-color
-                      mt-1
-                    "
-                  >
-                    +8 (495) 989 20 11
-                  </p>
-                  <p
-                    class="
-                      ms-3
-                      mt-1
-                      white-box-with-icon-text
-                      fw-bold
-                      light-blue-color
-                      mt-1
-                    "
-                  >
-                    +8 (495) 969 60 12
-                  </p>
+                <div class="white-box-container white-box-with-icon p-0 me-3">
+                  <img
+                    src="../images/locationIcon2.png"
+                    height="100px"
+                    alt="packageIcon"
+                  />
+                  <div class="mt-1">
+                    <p class="ms-3 mt-2">Address</p>
+                    <p
+                      class="ms-3 white-box-with-icon-text fw-bold very-dark-blue-color mt-1"
+                    >
+                      4621 Hill Croft Farm Road
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="white-box-container white-box-with-icon p-0 mt-3 mt-xxl-0 ms-xxl-4"
+                >
+                  <img
+                    src="../images/phoneIcon.png"
+                    height="100px"
+                    alt="packageIcon"
+                  />
+                  <div class="mt-1">
+                    <p class="ms-3 mt-2">Phone</p>
+                    <p
+                      class="phones-text ms-3 white-box-with-icon-text fw-bold light-blue-color mt-1"
+                    >
+                      +8 (495) 989 20 11
+                    </p>
+                    <p
+                      class="ms-3 mt-1 white-box-with-icon-text fw-bold light-blue-color mt-1"
+                    >
+                      +8 (495) 969 60 12
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="d-flex container-of-2-50vw-containers second-50vw-container">
-        <div class="width-50vw-container container-vertical-center">
-          <div class="ms-lg-5 me-lg-5">
-            <h2 class="dark-blue-color fw-bold font-size-40px mt-4 mt-lg-0">
-              Excelent company<br />quality services
-            </h2>
-            <p class="mt-4 mb-4 me-5 pe-5">
-              Donec lacinia purus et nisl dignissim, vel egestas nunc iaculis.
-              Maecenas elementum elementum ipsum, sit amet lacinia lectus
-              vulputate nec.
-            </p>
-            <button class="blue-button mt-4">
-              Consultation
-              <button class="blue-button-arrow">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14"
-                  height="14"
-                  fill="currentColor"
-                  class="bi bi-caret-right-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
-                  />
-                </svg>
+        <div
+          class="d-flex container-of-2-50vw-containers second-50vw-container"
+        >
+          <div class="width-50vw-container container-vertical-center">
+            <div class="ms-lg-5 me-lg-5">
+              <h2 class="dark-blue-color fw-bold font-size-40px mt-4 mt-lg-0">
+                Excelent company<br />quality services
+              </h2>
+              <p class="mt-4 mb-4 me-5 pe-5">
+                Donec lacinia purus et nisl dignissim, vel egestas nunc iaculis.
+                Maecenas elementum elementum ipsum, sit amet lacinia lectus
+                vulputate nec.
+              </p>
+              <button class="blue-button mt-4">
+                Consultation
+                <button class="blue-button-arrow">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    fill="currentColor"
+                    class="bi bi-caret-right-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                    />
+                  </svg>
+                </button>
               </button>
-            </button>
+            </div>
           </div>
-        </div>
-        <div class="width-50vw-container mt-4 mt-lg-0">
-          <img class="img-fit" src="../images/ship3.png" alt="" />
+          <div class="width-50vw-container mt-4 mt-lg-0">
+            <img class="img-fit" src="../images/ship3.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
     <section id="circles-features-section">
       <div
-        class="content-container-70vw d-flex circles-features-section-container"
+        id="slide-right-elem2"
+        class="content-container-70vw d-flex circles-features-section-container slide-right-elem"
       >
         <div class="width-30-percent">
           <img src="../images/ship2.png" alt="" />
@@ -552,17 +471,12 @@
     </section>
 
     <section id="location-section">
-      <div class="content-container-70vw">
+      <div id="fadein-elem5" class="content-container-70vw fadein-elem">
         <h2 class="dark-blue-color fw-bold font-size-48px text-center">
           We provide the future<br />of delivery
         </h2>
         <div
-          class="
-            d-flex
-            white-boxes-with-icons-container
-            justify-content-center
-            mt-5
-          "
+          class="d-flex white-boxes-with-icons-container justify-content-center mt-5"
         >
           <div class="white-box-container white-box-with-icon p-0 mt-3 mt-lg-0">
             <img
@@ -573,39 +487,19 @@
             <div class="mt-1">
               <p class="ms-3 mt-2">Phone</p>
               <p
-                class="
-                  phones-text
-                  ms-3
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="phones-text ms-3 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 +8 (495) 989 20 11
               </p>
               <p
-                class="
-                  ms-3
-                  mt-1
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="ms-3 mt-1 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 +8 (495) 969 60 12
               </p>
             </div>
           </div>
           <div
-            class="
-              white-box-container white-box-with-icon
-              p-0
-              ms-4
-              me-4
-              mt-4 mt-lg-0
-            "
+            class="white-box-container white-box-with-icon p-0 ms-4 me-4 mt-4 mt-lg-0"
           >
             <img
               src="../images/locationIcon2.png"
@@ -615,13 +509,7 @@
             <div class="mt-1">
               <p class="ms-3 mt-2">Address</p>
               <p
-                class="
-                  ms-3
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="ms-3 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 4621 Hill Croft Farm Road
               </p>
@@ -636,26 +524,12 @@
             <div class="mt-1">
               <p class="ms-3 mt-2">Emails</p>
               <p
-                class="
-                  phones-text
-                  ms-3
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="phones-text ms-3 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 rolso@site.com
               </p>
               <p
-                class="
-                  ms-3
-                  mt-1
-                  white-box-with-icon-text
-                  fw-bold
-                  dark-blue-color
-                  mt-1
-                "
+                class="ms-3 mt-1 white-box-with-icon-text fw-bold dark-blue-color mt-1"
               >
                 rolso@support.com
               </p>
